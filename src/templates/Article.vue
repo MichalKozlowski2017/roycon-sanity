@@ -64,7 +64,6 @@ export default {
   height: 100%;
   margin: 0 auto;
 
-  background-color: red;
   &__title {
     margin-left: 10%;
   }
