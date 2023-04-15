@@ -1,0 +1,35 @@
+<template>
+  <Layout>
+    <Oferta1></Oferta1>
+    <Oferta2></Oferta2>
+    <Slider></Slider>
+    <Oferta3></Oferta3>
+    <!-- <Oferta4></Oferta4> -->
+    <Oferta5></Oferta5>
+    <Kontakt></Kontakt>
+  </Layout>
+</template>
+
+<script>
+  import Oferta1 from "../components/oferta/Oferta1"
+  import Oferta2 from "../components/oferta/Oferta2"
+  import Slider from "../components/oferta/Slider"
+  import Oferta3 from "../components/oferta/Oferta3"
+  import Oferta4 from "../components/oferta/Oferta4"
+  import Oferta5 from "../components/oferta/Oferta5"
+  import Kontakt from "../components/Kontakt"
+  export default {
+    metaInfo: {
+      title: 'Oferta'
+    },
+    components: {
+      Oferta1,
+      Oferta2,
+      Slider,
+      Oferta3,
+      Oferta4,
+      Oferta5,
+      Kontakt
+    }
+  }
+</script>
