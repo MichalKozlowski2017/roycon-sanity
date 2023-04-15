@@ -12,6 +12,8 @@
   query ($id: ID!) {
     sanityArticle(id: $id) {
       title
+      excerpt
+      keywords
       _rawBlockContent
     }
   }
@@ -25,6 +27,8 @@ export default {
   metaInfo() {
     return {
       title: this.$page.sanityArticle.title,
+      meta: [{ name: "description", content: this.$page.sanityArticle.excerpt }],
+      meta: [{ name: "keywords", content: this.$page.sanityArticle.keywords }],
     };
   },
   components: {
@@ -59,7 +63,6 @@ export default {
   max-width: 1920px;
   height: 100%;
   margin: 0 auto;
-  padding-top: 120px;
 
   background-color: red;
   &__title {

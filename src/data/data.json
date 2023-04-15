@@ -1,367 +1,365 @@
 [
-    {
-        "pages":{
-            "index":{
-                "mainSlider": {
-                    "slides": [
-                        {
-                            "id": 1,
-                            "category": "ZEROENERGETYCZNE BUDYNKI",
-                            "title": "Rachunek za energię bliski zera",
-                            "text": "Projektujemy i budujemy budynki, których celem jest zużycie energii bliskie zeru.",
-                            "btnLink": "/oferta",
-                            "btnText": "DOWIEDZ SIĘ WIĘCEJ",
-                            "image": "slide_1.jpg"
-                        },
-                        {
-                            "id": 2,
-                            "category": "Hale stalowe w Systemie Astron",
-                            "title": "Zaprojektowane pod twoje potrzeby",
-                            "text": "Zeroenergetyczne stalowe hale w Systemie Astron, wykonane z myślą o biznesie klienta.",
-                            "btnLink": "/oferta#oferta2",
-                            "btnText": "Dowiedz się więcej",
-                            "image": "slide_2.jpg"
-                        },
-                        {
-                            "id": 3,
-                            "category": "Biurowce w najlepszych systemach",
-                            "title": "Gwarancja dobrej atmosfery",
-                            "text": "Zeroenergetyczne indywidualnie zaprojektowane eleganckie budynki biurowe i biurowo-magazynowe. ",
-                            "btnLink": "/oferta#oferta3",
-                            "btnText": "Dowiedz się więcej",
-                            "image": "slide_3.jpg"
-                        },
-                        {
-                            "id": 4,
-                            "category": "ROYCON HVAC",
-                            "title": "Pomieszczenia z idealnym <br>klimatem",
-                            "text": "Efektywny system ogrzewania, chłodzenia i wentylacji, który stworzy w budowanym obiekcie idealny Klimat.",
-                            "btnLink": "/technologia",
-                            "btnText": "Dowiedz się więcej",
-                            "image": "slide_4.jpg"
-                        },
-                        {
-                            "id": 5,
-                            "category": "System Izodom2000",
-                            "title": "Troska o środowisko, <br>oszczędność dla użytkownika",
-                            "text": "Budowa budynku w systemie Izodom 2000 to trwała betonowa konstrukcja, niespotykane parametry izolacyjne oraz szybkie zakończenie prac. ",
-                            "btnLink": "/technologia#oferta4",
-                            "btnText": "Dowiedz się więcej",
-                            "image": "slide_5.jpg"
-                        }
-                    ]
-                },
-                "secondSlider": {
-                    "slides": [
-                        {
-                            "id": 1,
-                            "category": "Budynek zeroenergetyczny",
-                            "title": "Bilans energetyczny bliski zera",
-                            "text": "Roycon HVAC to efektywny system ogrzewania, chłodzenia i wentylacji, który stworzy w budowanym obiekcie idealny klimat.<br><br>Wielozadaniowość połączona z maksymalnym bezpieczeństwem użytkowania.",
-                            "btnLink": "/oferta",
-                            "btnText": "Sprawdź",
-                            "image": "slider_2.jpg"
-                        }
-                    ]
-                },
-                "section_1": {
-                    "category": "FIRMA ROYCON",
-                    "title": "Sprawdzony dostawca rozwiązań zeroenergetycznych",
-                    "text": "Od ponad 30 lat zbieramy najlepsze doświadczenia, przekształcając je w innowacyjne rozwiązania, mające dostarczyć <br><br>Klientom produkt najwyższej klasy, jakim jest budynek efektywny energetycznie.",
-                    "images": {
-                        "image_1": "section1_1.jpg",
-                        "image_2": "section1_2.jpg"
-                    },
-                    "button": {
-                        "text": "Dowiedz się więcej",
-                        "link": "/technologia"
-                    }
-                }
+  {
+    "pages": {
+      "index": {
+        "mainSlider": {
+          "slides": [
+            {
+              "id": 1,
+              "category": "ZEROENERGETYCZNE BUDYNKI",
+              "title": "Rachunek za energię bliski zera",
+              "text": "Projektujemy i budujemy budynki, których celem jest zużycie energii bliskie zeru.",
+              "btnLink": "/oferta",
+              "btnText": "DOWIEDZ SIĘ WIĘCEJ",
+              "image": "slide_1.jpg"
             },
-            "realizacje": [
-                {
-                    "id": 1,
-                    "image": "realizacja03.png",
-                    "alt": "Rrealizacje 1",
-                    "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
-                },
-                {
-                    "id": 2,
-                    "image": "realizacja01.png",
-                    "alt": "Realizacje 2",
-                    "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
-                },
-                {
-                    "id": 3,
-                    "image": "realizacja08.png",
-                    "alt": "Realizacje 3",
-                    "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
-                },
-                {
-                    "id": 4,
-                    "image": "realizacja02.png",
-                    "alt": "Realizacje 4",
-                    "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
-                },
-                {
-                    "id": 5,
-                    "image": "realizacja04.png",
-                    "alt": "Realizacje 5",
-                    "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
-                },
-                {
-                    "id": 6,
-                    "image": "realizacja07.png",
-                    "alt": "Realizacje 6",
-                    "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
-                },
-                {
-                    "id": 7,
-                    "image": "realizacja05.png",
-                    "alt": "Realizacje 7",
-                    "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
-                },
-                {
-                    "id": 8,
-                    "image": "realizacja06.png",
-                    "alt": "Realizacje 8",
-                    "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
-                }
-            ],
-            "partnerzy": {
-                "title": "PARTNERZY STRATEGICZNI",
-                "images": [
-                    {
-                        "id": 1,
-                        "image": "partner_1.png",
-                        "alt": "MAF ENERGY"
-                    },
-                    {
-                        "id": 2,
-                        "image": "partner_2.png",
-                        "alt": "ASTRON"
-                    },
-                    {
-                        "id": 3,
-                        "image": "partner_3.png",
-                        "alt": "IZODOM 2000 POLSKA"
-                    },
-                    {
-                        "id": 4,
-                        "image": "partner_4.png",
-                        "alt": "RECYKLING - JERZY NOWAK"
-                    }
-                ]
+            {
+              "id": 2,
+              "category": "Hale stalowe w Systemie Astron",
+              "title": "Zaprojektowane pod twoje potrzeby",
+              "text": "Zeroenergetyczne stalowe hale w Systemie Astron, wykonane z myślą o biznesie klienta.",
+              "btnLink": "/oferta#oferta2",
+              "btnText": "Dowiedz się więcej",
+              "image": "slide_2.jpg"
             },
-            "kontakt": {
-                "category": "KONTAKT",
-                "title": "Jak możemy Ci pomóc?",
-                "adres": "ROYCON SP. Z O.O. <br>58-500 JELENIA GÓRA,<br>ul. SPÓŁDZIELCZA 33B, ",
-                "legal": "Sąd Rejonowy dla Wrocławia-Fabrycznej we Wrocławiu, IX Wydział Gospodarczy Krajowego Rejestru Sądowego Kapitał Zakładowy 56 000,00 zł KRS 0000434601 NIP 611 272 81 64 REGON 021973893",
-                "map_desktop": "mapa.jpg",
-                "map_mobile": "mapa_mobile.jpg",
-                "persons": [
-                    {
-                        "id": 1,
-                        "category": "PREZES ZARZĄDU",
-                        "name": "Jerzy Nowak",
-                        "phone": "+48 601 566 570",
-                        "mail": "roycon@roycon.pl"
-                    },
-                    {
-                        "id": 2,
-                        "category": "OFERTY",
-                        "name": "Wojciech Nowak",
-                        "phone": "+48 505 765 502",
-                        "mail": "w.nowak@roycon.pl"
-                    },
-                    {
-                        "id": 3,
-                        "category": "OFERTY",
-                        "name": "Marcin Sidło",
-                        "phone": "+48 501 842 196",
-                        "mail": "m.sidlo@roycon.pl"
-                    },
-                    {
-                        "id": 4,
-                        "category": "KRUSZYWA, RECYKLING",
-                        "name": "Adam Nowak",
-                        "phone": "+48 695 732 768",
-                        "mail": "recykling@jerzynowak.pl"
-                    },
-                    {
-                        "id": 5,
-                        "category": "WYNAJEM MASZYN",
-                        "name": "Marek Jackiewicz",
-                        "phone": "+48 695 395 016",
-                        "mail": "transport@jerzynowak.pl"
-                    },
-                    {
-                        "id": 6,
-                        "category": "KSIĘGOWOŚĆ",
-                        "name": "Aleksandra Kolanus",
-                        "phone": "+48 790 504 033",
-                        "mail": "kancelaria@legis-abakus.pl"
-                    }
-                ]
+            {
+              "id": 3,
+              "category": "Biurowce w najlepszych systemach",
+              "title": "Gwarancja dobrej atmosfery",
+              "text": "Zeroenergetyczne indywidualnie zaprojektowane eleganckie budynki biurowe i biurowo-magazynowe. ",
+              "btnLink": "/oferta#oferta3",
+              "btnText": "Dowiedz się więcej",
+              "image": "slide_3.jpg"
             },
-            "oferta": {
-                "oferta_1": {
-                    "title": "Roycon. Sprawdzony dostawca rozwiązań zeroenergetycznych",
-                    "category": "ZEROENERGETYCZNE BUDYNKI - RACHUNEK ZA ENERGIE BLISKI ZERA",
-                    "text_1": "<p>Projektujemy i budujemy budynki, których celem jest utrzymanie bilansu energetycznego jak najbliżej zera.</p><p>Stosujemy profesjonalne rozwiązania, energooszczędne technologie i materiały budowlane, tak aby zapewnić, jak najniższy koszt utrzymania powstającego obiektu.</p>",
-                    "text_2": "<p>Stworzone przez nas systemy pozwalają ograniczyć zużycie energii na ogrzewanie blisko o 80%. Budując zeroenergetycznie dbamy o przyszłą oszczędność Klienta, dbając tym samym o środowisko oraz o zdrowie nasze i przyszłych pokoleń. Wszystko to wykonujemy przy współpracy wykwalifikowanych i doświadczonych specjalistów.</p><p>My budujemy, Ty oszczędzasz, a nasza wykwalifikowana kadra służy profesjonalnym wsparciem na każdym etapie inwestycji. Wspólnie dbamy o to, by budowany przez nas obiekt powstał szybko, sprawnie i zgodnie z przedstawionymi przez Klienta założeniami inwestycyjnymi oraz budżetowymi.</p>",
-                    "image_1": "oferta_1.jpg",
-                    "image_2": "oferta_2.jpg"
-                },
-                "oferta_2": {
-                    "category": "Hale stalowe w Systemie Astron <br>- zaprojektowane pod twoje potrzeby",
-                    "text": "<p>Wykonujemy stalowe hale w Systemie Astron, które są projektowane z myślą o biznesie klienta. Każda branża charakteryzuje się innymi wymaganiami, dlatego potrzebuje indywidualnych rozwiązań. Proaktywnie zaprojektowanie, przyjazne dla ludzi i natury budynki, zapewniają pozytywne środowisko pracy oraz wydajną produkcję.</p><p>Aby uzyskać wyjątkową wydajność energetyczną, inżynierowie ROYCON stworzyli narzędzia, które obiektywnie pokazują właścicielowi w jaki sposób zaoszczędzić energię i zminimalizować wydatki. </p>",
-                    "image": "oferta_3.png",
-                    "button": {
-                        "text": "Dowiedz się więcej",
-                        "link": "http://www.astron.biz"
-                    }
-                },
-                "oferta_3": {
-                    "category": "Biurowce w najlepszych systemach - gwarancja dobrej atmosfery pracy",
-                    "text": "<p>Hale Astron to nie tylko obiekty przemysłowe, ale również indywidualnie zaprojektowane i eleganckie budynki biurowe i biurowo-magazynowe. Przestronne i przyjazne biura zbudowane w systemie Astron to gwarancja zapewnienia miłej atmosfery pracy i wysokiej wydajności pracowników. Niezależnie od rodzaju budynku biurowego - jednopiętrowego, wielopiętrowego czy zintegrowanego z innymi obiektami - biura pełnią rolę wizytówki, a materiały, kolory i styl odgrywają ważną rolę w reprezentowaniu firmy.</p>",
-                    "image_1": "oferta_4.jpg",
-                    "image_2": "oferta_5.jpg"
-                },
-                "oferta_4": {
-                    "category": "Izodom2000: troska o środowisko, oszczędność dla użytkownika",
-                    "text": "<p>Wybór technologii i projektu biura ma kluczowe znaczenie dla pracowników, środowiska i bilansu energetycznego budynku. Dobra izolacja to nie tylko mniejsze wydatki na energię (oszczędność 120 - 140 tys złotych w skali 25lat), ale również zmniejszenie emisji CO2 przez dziesiątki lat korzystania z budynku. Budowa biurowca w systemie Izodom 2000 to trwała betonowa konstrukcja, niespotykane parametry izolacyjne oraz szybkie zakończenie prac. System Izodom 2000 pozwala na osiągnięcie energooszczędności w sposób praktyczny i przystępny cenowo</p>",
-                    "image": "oferta_6.jpg",
-                    "button": {
-                        "text": "Dowiedz się więcej",
-                        "link": "https://www.izodom2000polska.com/?lang=pl"
-                    },
-                    "icons": [
-                        {
-                            "id": 1,
-                            "image": "icon_oferta_1.png",
-                            "text": "LEPSZY WYNIK IZOLACYJNY"
-                        },
-                        {
-                            "id": 2,
-                            "image": "icon_oferta_2.png",
-                            "text": "SZYBSZY CZAS REALIZACJI"
-                        },
-                        {
-                            "id": 3,
-                            "image": "icon_oferta_3.png",
-                            "text": "REDUKCJA NACISKU NA FUNDAMENT"
-                        },
-                        {
-                            "id": 4,
-                            "image": "icon_oferta_4.png",
-                            "text": "ELIMINACJA WILGOCI"
-                        },
-                        {
-                            "id": 5,
-                            "image": "icon_oferta_5.png",
-                            "text": "WIEKSZA NOŚNOŚĆ"
-                        }
-                    ]
-                },
-                "oferta_5": {
-                    "category": "Recykling Jerzy Nowak. <br>Troska o naturę i oszczędność Klienta",
-                    "text_1": "<p>Każda budowa wymaga odpowiedniego przygotowania terenu zanim powstanie na nim budynek. Wykopy, budowa nasypów, profilowanie oraz korytowanie podłoża to tylko część oferowanych przez nas usług.</p><p>Prowadzimy kompleksowe rozbiórki, a także częściowe demontaże różnego rodzaju obiektów. Nasz profesjonalny park maszynowy oraz doświadczenie zespołu naszych pracowników sprawia, że jesteśmy w stanie wykonać najbardziej skomplikowane wyburzenia.</p>",
-                    "text_2": "<p>Troska o dobro naszego wspólnego środowiska sprawiła, że włączyliśmy do oferty działania recyklingowe. Minimalizujemy ilość odpadów budowlanych, przetwarzając je w nowe produkty. Pozwalamy tym samym na ich ponowne wykorzystanie, wpływając przy tym na oszczędność Klienta.</p>",
-                    "image_1": "oferta_7.jpg",
-                    "image_2": "oferta_8.jpg",
-                    "image_3": "oferta_9.jpg",
-                    "button": {
-                        "text": "Dowiedz się więcej",
-                        "link": "http://www.jerzynowak.pl"
-                    }
-                },
-                "slider": [
-                    {
-                        "id": 1,
-                        "title": "optymalizacja projektu budynku",
-                        "text": "aby w jak najbardziej efektywny sposób wykorzystać surowce i uzyskać jak  najlżejszą strukturę zgodną z krajowymi przepisami i regulacjami.",
-                        "image": "oferta_slider_1.jpg"
-                    },
-                    {
-                        "id": 2,
-                        "title": "zmniejszenie wagi fundamentów",
-                        "text": "aby zredukować ilość zużywanego betonu i stali. Lżejsze budynki łatwiej modyfikować i rozbudowywać, zapewniając opłacalne środki budowy i przebudowy.",
-                        "image": "oferta_slider_1.jpg"
-                    },
-                    {
-                        "id": 3,
-                        "title": "łatwe prognozowanie okresu zwrotu z inwestycji",
-                        "text": "dzięki autorskiemu narzędziu do wyceny i projektowania Cyprion.",
-                        "image": "oferta_slider_1.jpg"
-                    },
-                    {
-                        "id": 4,
-                        "title": "ocena efektywności energetycznej",
-                        "text": "budynku i porównanie jej z ustawowymi wymogami  dzięki narzędziu Cyprion połączonym z modułem utraty ciepła.",
-                        "image": "oferta_slider_1.jpg"
-                    },
-                    {
-                        "id": 5,
-                        "title": "optymalizacja poziomu oświetlenia budynku",
-                        "text": "dzięki autonomicznej aplikacji dla światła dziennego DIAL-Astron powiązanej z Cyprionem, która ocenia procent czasu, w którym sztuczne oświetlenie nie jest wymagane w budynku.",
-                        "image": "oferta_slider_1.jpg"
-                    }
-                ]
+            {
+              "id": 4,
+              "category": "ROYCON HVAC",
+              "title": "Pomieszczenia z idealnym <br>klimatem",
+              "text": "Efektywny system ogrzewania, chłodzenia i wentylacji, który stworzy w budowanym obiekcie idealny Klimat.",
+              "btnLink": "/technologia",
+              "btnText": "Dowiedz się więcej",
+              "image": "slide_4.jpg"
             },
-            "technologia": {
-                "technologia_1": {
-                    "title": "Troska o środowisko, oszczędność dla użytkownika",
-                    "category": "ROYCON HVAC. <br>Pomieszczenia z idealnym klimatem",
-                    "text": "<p>Roycon HVAC  to efektywny system ogrzewania, chłodzenia i wentylacji, który stworzy w budowanym obiekcie idealny Klimat. Wielozadaniowość połączona z maksymalnym bezpieczeństwem użytkowania.</p><br><p>Idealny klimat Twojego budynku zapewnią:</p>",
-                    "image": "technologia_1.jpg",
-                    "icons": [
-                        {
-                            "id": 1,
-                            "image": "icon_technologia_1.png",
-                            "text": "IDEALNA <br>TEMPERATURA",
-                            "content": "<h3>Ogrzewanie</h3><p>system stale kontroluje i zapewnia temperaturę wewnątrz pomieszczeń na poziomie 22-24&nbsp;°C, a specjalnie zlokalizowane nawiewy delikatnie rozgrzewają poszczególne elementy budynku. Przy odpowiedniej izolacji podłogi od gruntu, uzyskujemy efekt \"ciepłej podłogi\".</p><h3>Chłodzenie</h3><p>dzięki zastosowaniu technologii rewersyjnej, system w upalne dni obniża temperaturę pomieszczenia o kilka stopni, aby zapewnić optymalny komfort użytkowania.</p>"
-                        },
-                        {
-                            "id": 2,
-                            "image": "icon_technologia_2.png",
-                            "text": "IDEALNA <br>CZYSTOŚĆ",
-                            "content": "<h3>Wentylacja</h3><p>system dostarcza stały napływ świeżego powietrza do pomieszczeń, utrzymując wilgotność względną na poziomie 40-45%. Natomiast stężenie dwutlenku węgla utrzymywane jest na bezpiecznym poziomie poniżej 800 ppm. Dzięki takiemu rozwiązaniu użytkownicy pomieszczeń czują się wypoczęci oraz w pełni sił. System filtrów dba również o to, by do wnętrza nie dostawał się kurz oraz inne zanieczyszczenia.</p>"
-                        },
-                        {
-                            "id": 3,
-                            "image": "icon_technologia_3.png",
-                            "text": "IDEALNA PARA: <br>OSZCZĘDNOŚĆ I&nbsp;BEZPIECZEŃSTWO",
-                            "content": "<h3>Rekuperacja</h3><p>zastosowanie rekuperatora o wysokim wskaźniku odzysku ciepła z pomieszczeń zapewnia oszczędności przez cały rok. Zmniejsza to o ponad 90% ucieczkę wyprodukowanej energii cieplnej.</p><h3>Oszczędności</h3><p>połączenie zalety odzysku wykorzystanej energii wraz z zastosowaniem nowoczesnej pompy ciepła powietrze - powietrze oraz urządzenia zadaniowego sprawia, że roczne koszty eksploatacji spadają praktycznie do zera. System pozwala na całkowite wykorzystanie wytworzonej energii.</p>"
-                        }
-                    ]
-                },
-                "technologia_2": {
-                    "category": "Fotowoltaika: <br>budynki napędzane słońcem",
-                    "text": "<p>Indywidualny system zaopatrywania budynku w energię elektryczną pozwala zminimalizować wydatki na prąd. Główną barierą, która pojawia się w rozważaniach o sensowności takiej inwestycji, jest obawa przed niedostateczną ilością słonecznych dni w naszym kraju. Nie ma się jednak czego obawiać, ponieważ energia skumulowana w okresie letnim, jest magazynowana i udostępniana nam w dni kiedy słońca jest niewiele. Instalacja fotowoltaiczna to oszczędność oraz troska o lepsze życie dla nas i przyszłych pokoleń. Ponadto, posiadanie własnej mini elektrowni słonecznej daje poczucie niezależności od polityki cenowej operatorów. Jednym słowem, warto.</p>",
-                    "image_1": "technologia_2.jpg",
-                    "image_2": "technologia_3.jpg"
-                }
-            },
-            "ofirmie": {
-                "ofirmie_1": {
-                    "title": "Tradycja budowania. <br>Nowoczesność rozwiązań",
-                    "category": "FIRMA ROYCON",
-                    "text": "<p>Roycon to generalny wykonawca, który swoją siłę zbudował podczas realizacji dziesiątek inwestycji.</p><p>Jako firma rodzinna powstała ponad 30 lat temu cenimy tradycyjne wartości, ale na nich nie poprzestajemy. Mocnym fundamentem naszej firmy są innowacyjne rozwiązania i najnowsze technologie, dzięki którym możemy zapewniać naszym klientom najwyższej jakości usługi.</p>",
-                    "image_1": "section1_1.jpg",
-                    "image_2": "section1_2.jpg"
-                },
-                "ofirmie_2": {
-                    "title": "Budując siłę naszej firmy, zaczęliśmy od doświadczonego zespołu",
-                    "text_1": "<p>Nasze podejście do współpracy polega na zapewnieniu klientom doświadczonego zespołu specjalistów, dysponujących umiejętnościami niezbędnymi do tego, by prowadzony przez nas projekt odniósł pewny sukces. Oferujemy usługi z zakresu profesjonalnego doradztwa, będąc dla naszych Klientów wsparciem na każdym etapie prac budowlanych.</p",
-                    "text_2": "<p>W ROYCON wierzymy, że aby osiągnąć nasze cele, musimy stale rozwijać umiejętności naszego zespołu, inwestując w jego rozwój osobisty i zawodowy oraz zapewniając im możliwie najlepsze warunki pracy. Postawiliśmy na sprawdzonych specjalistów, którzy podzielają wizję naszej firmy i są z nami na placu budowy od  wielu lat. </p>",
-                    "image_1": "ofirmie_1.png",
-                    "image_2": "ofirmie_2.jpg"
-                }
+            {
+              "id": 5,
+              "category": "ZeroHouse",
+              "title": "Troska o środowisko, <br>oszczędność dla użytkownika",
+              "text": "Budowa budynku w systemie Izodom 2000 to trwała betonowa konstrukcja, niespotykane parametry izolacyjne oraz szybkie zakończenie prac. ",
+              "btnLink": "https://zerohouse.pl",
+              "btnText": "Dowiedz się więcej",
+              "image": "slide_5.jpg"
             }
+          ]
+        },
+        "secondSlider": {
+          "slides": [
+            {
+              "id": 1,
+              "category": "Budynek zeroenergetyczny",
+              "title": "Bilans energetyczny bliski zera",
+              "text": "Roycon HVAC to efektywny system ogrzewania, chłodzenia i wentylacji, który stworzy w budowanym obiekcie idealny klimat.<br><br>Wielozadaniowość połączona z maksymalnym bezpieczeństwem użytkowania.",
+              "btnLink": "/oferta",
+              "btnText": "Sprawdź",
+              "image": "slider_2.jpg"
+            }
+          ]
+        },
+        "section_1": {
+          "category": "FIRMA ROYCON",
+          "title": "Sprawdzony dostawca rozwiązań zeroenergetycznych",
+          "text": "Od ponad 30 lat zbieramy najlepsze doświadczenia, przekształcając je w innowacyjne rozwiązania, mające dostarczyć <br><br>Klientom produkt najwyższej klasy, jakim jest budynek efektywny energetycznie.",
+          "images": {
+            "image_1": "section1_1.jpg",
+            "image_2": "section1_2.jpg"
+          },
+          "button": {
+            "text": "Dowiedz się więcej",
+            "link": "/technologia"
+          }
         }
+      },
+      "realizacje": [
+        {
+          "id": 1,
+          "image": "realizacja03.png",
+          "alt": "Rrealizacje 1",
+          "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
+        },
+        {
+          "id": 2,
+          "image": "realizacja01.png",
+          "alt": "Realizacje 2",
+          "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
+        },
+        {
+          "id": 3,
+          "image": "realizacja08.png",
+          "alt": "Realizacje 3",
+          "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
+        },
+        {
+          "id": 4,
+          "image": "realizacja02.png",
+          "alt": "Realizacje 4",
+          "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
+        },
+        {
+          "id": 5,
+          "image": "realizacja04.png",
+          "alt": "Realizacje 5",
+          "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
+        },
+        {
+          "id": 6,
+          "image": "realizacja07.png",
+          "alt": "Realizacje 6",
+          "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
+        },
+        {
+          "id": 7,
+          "image": "realizacja05.png",
+          "alt": "Realizacje 7",
+          "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
+        },
+        {
+          "id": 8,
+          "image": "realizacja06.png",
+          "alt": "Realizacje 8",
+          "info": "Projekt Sosnówka cechuje nowoczesna architektura nawiązująca bryłą oraz kolorystyką do najlepszych modernistycznych tradycji. Jasne elewacje przełamane zostaną płytami kompozytowymi o fakturze i kolorze drewna doskonale korespondującymi z naturalnymotoczeniem osiedla."
+        }
+      ],
+      "partnerzy": {
+        "title": "PARTNERZY STRATEGICZNI",
+        "images": [
+          {
+            "id": 1,
+            "image": "partner_1.png",
+            "alt": "MAF ENERGY"
+          },
+          {
+            "id": 2,
+            "image": "partner_2.png",
+            "alt": "ASTRON"
+          },
+          {
+            "id": 3,
+            "image": "partner_3.png",
+            "alt": "IZODOM 2000 POLSKA"
+          },
+          {
+            "id": 4,
+            "image": "partner_4.png",
+            "alt": "RECYKLING - JERZY NOWAK"
+          }
+        ]
+      },
+      "kontakt": {
+        "category": "KONTAKT",
+        "title": "Jak możemy Ci pomóc?",
+        "adres": "ROYCON SP. Z O.O. <br>58-500 JELENIA GÓRA,<br>ul. SPÓŁDZIELCZA 33B, ",
+        "legal": "Sąd Rejonowy dla Wrocławia-Fabrycznej we Wrocławiu, IX Wydział Gospodarczy Krajowego Rejestru Sądowego Kapitał Zakładowy 56 000,00 zł KRS 0000434601 NIP 611 272 81 64 REGON 021973893",
+        "map_desktop": "mapa.jpg",
+        "map_mobile": "mapa_mobile.jpg",
+        "persons": [
+          {
+            "id": 1,
+            "category": "PREZES ZARZĄDU",
+            "name": "Jerzy Nowak",
+            "phone": "+48 601 566 570",
+            "mail": "roycon@roycon.pl"
+          },
+          {
+            "id": 2,
+            "category": "OFERTY",
+            "name": "Wojciech Nowak",
+            "phone": "+48 505 765 502",
+            "mail": "w.nowak@roycon.pl"
+          },
+          {
+            "id": 3,
+            "category": "OFERTY",
+            "name": "Marcin Sidło",
+            "phone": "+48 501 842 196",
+            "mail": "m.sidlo@roycon.pl"
+          },
+          {
+            "id": 4,
+            "category": "KRUSZYWA, RECYKLING",
+            "name": "Adam Nowak",
+            "phone": "+48 695 732 768",
+            "mail": "recykling@jerzynowak.pl"
+          },
+          {
+            "id": 5,
+            "category": "WYNAJEM MASZYN",
+            "name": "Marek Jackiewicz",
+            "phone": "+48 695 395 016",
+            "mail": "transport@jerzynowak.pl"
+          },
+          {
+            "id": 6,
+            "category": "KSIĘGOWOŚĆ",
+            "name": "Aleksandra Kolanus",
+            "phone": "+48 790 504 033",
+            "mail": "kancelaria@legis-abakus.pl"
+          }
+        ]
+      },
+      "oferta": {
+        "oferta_1": {
+          "title": "Roycon. Sprawdzony dostawca rozwiązań zeroenergetycznych",
+          "category": "ZEROENERGETYCZNE BUDYNKI - RACHUNEK ZA ENERGIE BLISKI ZERA",
+          "text_1": "<p>Projektujemy i budujemy budynki, których celem jest utrzymanie bilansu energetycznego jak najbliżej zera.</p><p>Stosujemy profesjonalne rozwiązania, energooszczędne technologie i materiały budowlane, tak aby zapewnić, jak najniższy koszt utrzymania powstającego obiektu.</p>",
+          "text_2": "<p>Stworzone przez nas systemy pozwalają ograniczyć zużycie energii na ogrzewanie blisko o 80%. Budując zeroenergetycznie dbamy o przyszłą oszczędność Klienta, dbając tym samym o środowisko oraz o zdrowie nasze i przyszłych pokoleń. Wszystko to wykonujemy przy współpracy wykwalifikowanych i doświadczonych specjalistów.</p><p>My budujemy, Ty oszczędzasz, a nasza wykwalifikowana kadra służy profesjonalnym wsparciem na każdym etapie inwestycji. Wspólnie dbamy o to, by budowany przez nas obiekt powstał szybko, sprawnie i zgodnie z przedstawionymi przez Klienta założeniami inwestycyjnymi oraz budżetowymi.</p>",
+          "image_1": "oferta_1.jpg",
+          "image_2": "oferta_2.jpg"
+        },
+        "oferta_2": {
+          "category": "Hale stalowe w Systemie Astron <br>- zaprojektowane pod twoje potrzeby",
+          "text": "<p>Wykonujemy stalowe hale w Systemie Astron, które są projektowane z myślą o biznesie klienta. Każda branża charakteryzuje się innymi wymaganiami, dlatego potrzebuje indywidualnych rozwiązań. Proaktywnie zaprojektowanie, przyjazne dla ludzi i natury budynki, zapewniają pozytywne środowisko pracy oraz wydajną produkcję.</p><p>Aby uzyskać wyjątkową wydajność energetyczną, inżynierowie ROYCON stworzyli narzędzia, które obiektywnie pokazują właścicielowi w jaki sposób zaoszczędzić energię i zminimalizować wydatki. </p>",
+          "image": "oferta_3.png",
+          "button": {
+            "text": "Dowiedz się więcej",
+            "link": "http://www.astron.biz"
+          }
+        },
+        "oferta_3": {
+          "category": "Biurowce w najlepszych systemach - gwarancja dobrej atmosfery pracy",
+          "text": "<p>Hale Astron to nie tylko obiekty przemysłowe, ale również indywidualnie zaprojektowane i eleganckie budynki biurowe i biurowo-magazynowe. Przestronne i przyjazne biura zbudowane w systemie Astron to gwarancja zapewnienia miłej atmosfery pracy i wysokiej wydajności pracowników. Niezależnie od rodzaju budynku biurowego - jednopiętrowego, wielopiętrowego czy zintegrowanego z innymi obiektami - biura pełnią rolę wizytówki, a materiały, kolory i styl odgrywają ważną rolę w reprezentowaniu firmy.</p>",
+          "image_1": "oferta_4.jpg",
+          "image_2": "oferta_5.jpg"
+        },
+        "oferta_4": {
+          "category": "Izodom2000: troska o środowisko, oszczędność dla użytkownika",
+          "text": "<p>Wybór technologii i projektu biura ma kluczowe znaczenie dla pracowników, środowiska i bilansu energetycznego budynku. Dobra izolacja to nie tylko mniejsze wydatki na energię (oszczędność 120 - 140 tys złotych w skali 25lat), ale również zmniejszenie emisji CO2 przez dziesiątki lat korzystania z budynku. Budowa biurowca w systemie Izodom 2000 to trwała betonowa konstrukcja, niespotykane parametry izolacyjne oraz szybkie zakończenie prac. System Izodom 2000 pozwala na osiągnięcie energooszczędności w sposób praktyczny i przystępny cenowo</p>",
+          "image": "oferta_6.jpg",
+          "button": {
+            "text": "Dowiedz się więcej",
+            "link": "https://www.izodom2000polska.com/?lang=pl"
+          },
+          "icons": [
+            {
+              "id": 1,
+              "image": "icon_oferta_1.png",
+              "text": "LEPSZY WYNIK IZOLACYJNY"
+            },
+            {
+              "id": 2,
+              "image": "icon_oferta_2.png",
+              "text": "SZYBSZY CZAS REALIZACJI"
+            },
+            {
+              "id": 3,
+              "image": "icon_oferta_3.png",
+              "text": "REDUKCJA NACISKU NA FUNDAMENT"
+            },
+            {
+              "id": 4,
+              "image": "icon_oferta_4.png",
+              "text": "ELIMINACJA WILGOCI"
+            },
+            {
+              "id": 5,
+              "image": "icon_oferta_5.png",
+              "text": "WIEKSZA NOŚNOŚĆ"
+            }
+          ]
+        },
+        "oferta_5": {
+          "category": "Recykling Jerzy Nowak. <br>Troska o naturę i oszczędność Klienta",
+          "text_1": "<p>Każda budowa wymaga odpowiedniego przygotowania terenu zanim powstanie na nim budynek. Wykopy, budowa nasypów, profilowanie oraz korytowanie podłoża to tylko część oferowanych przez nas usług.</p><p>Prowadzimy kompleksowe rozbiórki, a także częściowe demontaże różnego rodzaju obiektów. Nasz profesjonalny park maszynowy oraz doświadczenie zespołu naszych pracowników sprawia, że jesteśmy w stanie wykonać najbardziej skomplikowane wyburzenia.</p>",
+          "text_2": "<p>Troska o dobro naszego wspólnego środowiska sprawiła, że włączyliśmy do oferty działania recyklingowe. Minimalizujemy ilość odpadów budowlanych, przetwarzając je w nowe produkty. Pozwalamy tym samym na ich ponowne wykorzystanie, wpływając przy tym na oszczędność Klienta.</p>",
+          "image_1": "oferta_7.jpg",
+          "image_2": "oferta_8.jpg",
+          "image_3": "oferta_9.jpg",
+          "button": {
+            "text": "Dowiedz się więcej",
+            "link": "http://www.jerzynowak.pl"
+          }
+        },
+        "slider": [
+          {
+            "id": 1,
+            "title": "optymalizacja projektu budynku",
+            "text": "aby w jak najbardziej efektywny sposób wykorzystać surowce i uzyskać jak  najlżejszą strukturę zgodną z krajowymi przepisami i regulacjami.",
+            "image": "oferta_slider_1.jpg"
+          },
+          {
+            "id": 2,
+            "title": "zmniejszenie wagi fundamentów",
+            "text": "aby zredukować ilość zużywanego betonu i stali. Lżejsze budynki łatwiej modyfikować i rozbudowywać, zapewniając opłacalne środki budowy i przebudowy.",
+            "image": "oferta_slider_1.jpg"
+          },
+          {
+            "id": 3,
+            "title": "łatwe prognozowanie okresu zwrotu z inwestycji",
+            "text": "dzięki autorskiemu narzędziu do wyceny i projektowania Cyprion.",
+            "image": "oferta_slider_1.jpg"
+          },
+          {
+            "id": 4,
+            "title": "ocena efektywności energetycznej",
+            "text": "budynku i porównanie jej z ustawowymi wymogami  dzięki narzędziu Cyprion połączonym z modułem utraty ciepła.",
+            "image": "oferta_slider_1.jpg"
+          },
+          {
+            "id": 5,
+            "title": "optymalizacja poziomu oświetlenia budynku",
+            "text": "dzięki autonomicznej aplikacji dla światła dziennego DIAL-Astron powiązanej z Cyprionem, która ocenia procent czasu, w którym sztuczne oświetlenie nie jest wymagane w budynku.",
+            "image": "oferta_slider_1.jpg"
+          }
+        ]
+      },
+      "technologia": {
+        "technologia_1": {
+          "title": "Troska o środowisko, oszczędność dla użytkownika",
+          "category": "ROYCON HVAC. <br>Pomieszczenia z idealnym klimatem",
+          "text": "<p>Roycon HVAC  to efektywny system ogrzewania, chłodzenia i wentylacji, który stworzy w budowanym obiekcie idealny Klimat. Wielozadaniowość połączona z maksymalnym bezpieczeństwem użytkowania.</p><br><p>Idealny klimat Twojego budynku zapewnią:</p>",
+          "image": "technologia_1.jpg",
+          "icons": [
+            {
+              "id": 1,
+              "image": "icon_technologia_1.png",
+              "text": "IDEALNA <br>TEMPERATURA",
+              "content": "<h3>Ogrzewanie</h3><p>system stale kontroluje i zapewnia temperaturę wewnątrz pomieszczeń na poziomie 22-24&nbsp;°C, a specjalnie zlokalizowane nawiewy delikatnie rozgrzewają poszczególne elementy budynku. Przy odpowiedniej izolacji podłogi od gruntu, uzyskujemy efekt \"ciepłej podłogi\".</p><h3>Chłodzenie</h3><p>dzięki zastosowaniu technologii rewersyjnej, system w upalne dni obniża temperaturę pomieszczenia o kilka stopni, aby zapewnić optymalny komfort użytkowania.</p>"
+            },
+            {
+              "id": 2,
+              "image": "icon_technologia_2.png",
+              "text": "IDEALNA <br>CZYSTOŚĆ",
+              "content": "<h3>Wentylacja</h3><p>system dostarcza stały napływ świeżego powietrza do pomieszczeń, utrzymując wilgotność względną na poziomie 40-45%. Natomiast stężenie dwutlenku węgla utrzymywane jest na bezpiecznym poziomie poniżej 800 ppm. Dzięki takiemu rozwiązaniu użytkownicy pomieszczeń czują się wypoczęci oraz w pełni sił. System filtrów dba również o to, by do wnętrza nie dostawał się kurz oraz inne zanieczyszczenia.</p>"
+            },
+            {
+              "id": 3,
+              "image": "icon_technologia_3.png",
+              "text": "IDEALNA PARA: <br>OSZCZĘDNOŚĆ I&nbsp;BEZPIECZEŃSTWO",
+              "content": "<h3>Rekuperacja</h3><p>zastosowanie rekuperatora o wysokim wskaźniku odzysku ciepła z pomieszczeń zapewnia oszczędności przez cały rok. Zmniejsza to o ponad 90% ucieczkę wyprodukowanej energii cieplnej.</p><h3>Oszczędności</h3><p>połączenie zalety odzysku wykorzystanej energii wraz z zastosowaniem nowoczesnej pompy ciepła powietrze - powietrze oraz urządzenia zadaniowego sprawia, że roczne koszty eksploatacji spadają praktycznie do zera. System pozwala na całkowite wykorzystanie wytworzonej energii.</p>"
+            }
+          ]
+        },
+        "technologia_2": {
+          "category": "Fotowoltaika: <br>budynki napędzane słońcem",
+          "text": "<p>Indywidualny system zaopatrywania budynku w energię elektryczną pozwala zminimalizować wydatki na prąd. Główną barierą, która pojawia się w rozważaniach o sensowności takiej inwestycji, jest obawa przed niedostateczną ilością słonecznych dni w naszym kraju. Nie ma się jednak czego obawiać, ponieważ energia skumulowana w okresie letnim, jest magazynowana i udostępniana nam w dni kiedy słońca jest niewiele. Instalacja fotowoltaiczna to oszczędność oraz troska o lepsze życie dla nas i przyszłych pokoleń. Ponadto, posiadanie własnej mini elektrowni słonecznej daje poczucie niezależności od polityki cenowej operatorów. Jednym słowem, warto.</p>",
+          "image_1": "technologia_2.jpg",
+          "image_2": "technologia_3.jpg"
+        }
+      },
+      "ofirmie": {
+        "ofirmie_1": {
+          "title": "Tradycja budowania. <br>Nowoczesność rozwiązań",
+          "category": "FIRMA ROYCON",
+          "text": "<p>Roycon to generalny wykonawca, który swoją siłę zbudował podczas realizacji dziesiątek inwestycji.</p><p>Jako firma rodzinna powstała ponad 30 lat temu cenimy tradycyjne wartości, ale na nich nie poprzestajemy. Mocnym fundamentem naszej firmy są innowacyjne rozwiązania i najnowsze technologie, dzięki którym możemy zapewniać naszym klientom najwyższej jakości usługi.</p>",
+          "image_1": "section1_1.jpg",
+          "image_2": "section1_2.jpg"
+        },
+        "ofirmie_2": {
+          "title": "Budując siłę naszej firmy, zaczęliśmy od doświadczonego zespołu",
+          "text_1": "<p>Nasze podejście do współpracy polega na zapewnieniu klientom doświadczonego zespołu specjalistów, dysponujących umiejętnościami niezbędnymi do tego, by prowadzony przez nas projekt odniósł pewny sukces. Oferujemy usługi z zakresu profesjonalnego doradztwa, będąc dla naszych Klientów wsparciem na każdym etapie prac budowlanych.</p",
+          "text_2": "<p>W ROYCON wierzymy, że aby osiągnąć nasze cele, musimy stale rozwijać umiejętności naszego zespołu, inwestując w jego rozwój osobisty i zawodowy oraz zapewniając im możliwie najlepsze warunki pracy. Postawiliśmy na sprawdzonych specjalistów, którzy podzielają wizję naszej firmy i są z nami na placu budowy od  wielu lat. </p>",
+          "image_1": "ofirmie_1.png",
+          "image_2": "ofirmie_2.jpg"
+        }
+      }
     }
+  }
 ]
-        
-        

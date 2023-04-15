@@ -5,32 +5,44 @@
 </template>
 
 <script>
-import Realizacje from "../components/Realizacje"
+import Realizacje from "../components/Realizacje";
 export default {
   metaInfo: {
-    title: 'Realizacje'
+    title: "Realizacje",
+    meta: [
+      { name: "author", content: "Jerzy Nowak" },
+      {
+        name: "description",
+        content:
+          "Jesteśmy przedsiębiorstwem budowlanym oferującym budowę obiektów deweloperskich i przemysłowych. Stosujemy rozwiązania energooszczędne sprawiając, że Państwa budynek ogranicza zużycie energii na ogrzewanie o blisko 80%. Działamy na terenie Jelenia Góra oraz Dolny Śląsk.",
+      },
+      {
+        name: "keywords",
+        content:
+          "firma budowlana jelenia góra, firma budowlana Wałbrzych, firma budowlana legnica, generalny wykonawca jelenia góra, generalny wykonawca Wałbrzych, generalny wykonawca Legnica, wykonawca izodom 2000, hale stalowe jelenia góra, hale stalowe Wałbrzych, hale stalowe legnica, hale stalowe astron, domy zeroenergetyczne, budynek zeroenergetyczny",
+      },
+    ],
   },
   components: {
-    Realizacje
-  }
-}
+    Realizacje,
+  },
+};
 </script>
 
 <style lang="scss">
-
 .Realizacje .category-header {
   margin-left: 170px;
   @include mq($max-width: 1350px) {
-    margin-left: 100px
+    margin-left: 100px;
   }
   @include mq($max-width: 1200px) {
-    margin-left: 80px
+    margin-left: 80px;
   }
   @include mq($max-width: 992px) {
-    margin-left: 50px
+    margin-left: 50px;
   }
   @include mq($max-width: 768px) {
-    margin-left: 30px
+    margin-left: 30px;
   }
 }
 footer {

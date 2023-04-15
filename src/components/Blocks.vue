@@ -23,17 +23,21 @@ export default {
   props: {
     blocks: Array,
   },
+
   setup() {
     const serializers = {
       types: {
+        // image: (data) => {
+        //   return h("img", {
+        //     attrs: { src: urlFor(data.node.asset).url() },
+        //     class: "image",
+        //   });
+        // },
         image: (data) => {
-          // console.log(urlFor(data.node.asset).url());
           return h("img", {
             attrs: { src: urlFor(data.node.asset).url() },
             class: "image",
           });
-
-          // return <g-image src={urlFor(data.node.asset).url()} width="" />;
         },
       },
     };
@@ -48,5 +52,8 @@ export default {
 <style lang="scss" scoped>
 .image {
   opacity: 1;
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
 }
 </style>

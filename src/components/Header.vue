@@ -1,18 +1,21 @@
 <template>
   <header class="header">
     <strong>
-        <g-link to="/" class="logo"><g-image v-in-viewport src="~/assets/img/diament.png"/>{{ $static.metadata.siteName }}</g-link>
-        </strong>
-        <nav class="nav">
-          <g-link class="nav__link" to="/oferta/">Oferta</g-link>
-          <g-link class="nav__link" to="/technologia/">Technologia</g-link>
-          <g-link class="nav__link" to="/o-firmie/">O firmie</g-link>
-          <g-link class="nav__link" to="/realizacje/">Realizacje</g-link>
-          <!-- <g-link class="nav__link" to="/partnerzy/">Partnerzy</g-link> -->
-          <g-link class="nav__link" to="/kontakt/">Kontakt</g-link>
-        </nav>
-        
-    </header>
+      <g-link to="/" class="logo"
+        ><g-image v-in-viewport src="~/assets/img/diament.png" />{{
+          $static.metadata.siteName
+        }}</g-link
+      >
+    </strong>
+    <nav class="nav">
+      <g-link class="nav__link" to="/oferta/">Oferta</g-link>
+      <g-link class="nav__link" to="/technologia/">Technologia</g-link>
+      <g-link class="nav__link" to="/o-firmie/">O firmie</g-link>
+      <g-link class="nav__link" to="/realizacje/">Realizacje</g-link>
+      <g-link class="nav__link" target="_blank" to="https://zerohouse.pl">ZeroHouse</g-link>
+      <g-link class="nav__link" to="/kontakt/">Kontakt</g-link>
+    </nav>
+  </header>
 </template>
 
 <static-query>
@@ -24,27 +27,25 @@ query {
 </static-query>
 
 <script>
-  
 export default {
   name: "Header",
-  components: {
-  }
-}
+  components: {},
+};
 </script>
 
 <style lang="scss">
 .header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 120px;
-    padding: 10px 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 120px;
+  padding: 10px 170px;
 }
 .nav-mobile {
   display: none;
@@ -67,8 +68,9 @@ export default {
   margin-left: 50px;
 }
 
-.logo, .nav a {
-  font-family: 'Brandon Grotesque', sans-serif;
+.logo,
+.nav a {
+  font-family: "Brandon Grotesque", sans-serif;
   font-weight: 900;
   text-decoration: none;
   text-transform: uppercase;
@@ -76,10 +78,10 @@ export default {
 }
 
 .bm-burger-button {
-    display: none;
-  }
+  display: none;
+}
 @include mq($max-width: 1350px) {
-.logo {
+  .logo {
     font-size: 24px;
     img {
       height: 28px;
@@ -118,7 +120,7 @@ export default {
     font-size: 20px;
     img {
       height: 25px;
-     
+
       transform: translateY(5px) !important;
     }
   }
@@ -137,7 +139,7 @@ export default {
     font-size: 24px;
     img {
       height: 28px;
-     
+
       transform: translateY(5px) !important;
     }
   }
@@ -154,8 +156,4 @@ export default {
     right: 30px;
   }
 }
-
-
-
-
 </style>

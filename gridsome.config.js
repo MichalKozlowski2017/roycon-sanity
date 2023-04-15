@@ -19,7 +19,6 @@ function addStyleResource (rule) {
 
 module.exports = {
   siteName: 'Roycon',
-  siteDescription: "Software Developer Community",
   plugins: [
     {
       use: '@gridsome/plugin-google-analytics',
