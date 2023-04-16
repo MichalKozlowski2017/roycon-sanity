@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <section class="section">
+    <section>
       <div class="section-content">
         <Blocks :blocks="blocks" />
       </div>
@@ -38,6 +38,7 @@ export default {
 
   created() {
     this.getBlocks();
+    console.log(this.blocks);
   },
 
   data() {
@@ -63,6 +64,7 @@ export default {
   max-width: 1920px;
   height: 100%;
   margin: 0 auto;
+  margin-bottom: 100px;
 
   &__title {
     margin-left: 10%;
