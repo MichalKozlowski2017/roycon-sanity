@@ -45,7 +45,4 @@ export default {
     margin-left: 30px;
   }
 }
-footer {
-  margin-top: 100px;
-}
 </style>
