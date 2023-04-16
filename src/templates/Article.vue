@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <section>
-      <div class="section-content">
+      <div class="section-content blockContent">
         <Blocks :blocks="blocks" />
       </div>
     </section>
