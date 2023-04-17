@@ -5,7 +5,7 @@
       <g-link class="nav__link" to="/technologia/">Technologia</g-link>
       <g-link class="nav__link" to="/o-firmie/">O firmie</g-link>
       <g-link class="nav__link" to="/realizacje/">Realizacje</g-link>
-      <!-- <g-link class="nav__link" to="/partnerzy/">Partnerzy</g-link> -->
+      <g-link class="nav__link" target="_blank" to="https://zerohouse.pl">ZeroHouse</g-link>
       <g-link class="nav__link" to="/kontakt/">Kontakt</g-link>
     </Slide>
   </ClientOnly>
@@ -15,12 +15,11 @@
 export default {
   components: {
     Slide: () =>
-      import('vue-burger-menu')
-      .then(m => m.Slide)
-      .catch()
-
-  }
-}
+      import("vue-burger-menu")
+        .then((m) => m.Slide)
+        .catch(),
+  },
+};
 </script>
 
 <style lang="scss">
@@ -34,7 +33,7 @@ export default {
 
   .bm-item-list {
     a {
-      font-family: 'Brandon Grotesque', sans-serif;
+      font-family: "Brandon Grotesque", sans-serif;
       font-weight: 900;
       text-decoration: none;
       text-transform: uppercase;
@@ -83,5 +82,4 @@ body.bm-overlay .bm-item-list a {
   transform: translateX(0);
   opacity: 1;
 }
-
 </style>
