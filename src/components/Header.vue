@@ -80,7 +80,7 @@ export default {
 .bm-burger-button {
   display: none;
 }
-@include mq($max-width: 1350px) {
+@include mq($max-width: 1450px) {
   .logo {
     font-size: 24px;
     img {

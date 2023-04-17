@@ -165,15 +165,15 @@
             "id": 1,
             "category": "PREZES ZARZĄDU",
             "name": "Wojciech Nowak",
-            "phone": "+48 505 765 502",
-            "mail": "w.nowak@roycon.pl"
+            "phone": "+48 601 566 570",
+            "mail": "roycon@roycon.pl"
           },
           {
             "id": 2,
-            "category": "KADRY",
-            "name": "Joanna Nowak",
-            "phone": "+48 501 234 740",
-            "mail": "j.nowak@roycon.pl"
+            "category": "OFERTY",
+            "name": "Wojciech Nowak",
+            "phone": "+48 505 765 502",
+            "mail": "w.nowak@roycon.pl"
           },
           {
             "id": 3,
@@ -192,8 +192,8 @@
           {
             "id": 5,
             "category": "WYNAJEM MASZYN",
-            "name": "Jerzy Nowak",
-            "phone": "+48 601 566 570",
+            "name": "Marek Jackiewicz",
+            "phone": "+48 695 395 016",
             "mail": "transport@jerzynowak.pl"
           },
           {
@@ -338,8 +338,8 @@
           ]
         },
         "technologia_2": {
-          "category": "ROYCON ENERGY: <br>Budynki napędzane słońcem i wiatrem",
-          "text": "<p>Indywidualny system zaopatrywania budynku w energię elektryczną pozwala zminimalizować wydatki na prąd. Główną barierą, która pojawia się w rozważaniach o sensowności takiej inwestycji, jest obawa przed niedostateczną ilością słonecznych lub wietrznych dni w naszym kraju. Nie ma się jednak czego obawiać, ponieważ energia skumulowana jest w magazynach energii, które pozwalają na jej konsumpcję właśnie wtedy gdy tego potrzebujesz. Instalacja fotowoltaiczna i turbiny wiatrowe, to oszczędność oraz troska o lepsze życie dla nas i przyszłych pokoleń. Ponadto, posiadanie własnej mini elektrowni daje poczucie niezależności od polityki cenowej operatorów. Jednym słowem, warto.</p>",
+          "category": "Fotowoltaika: <br>budynki napędzane słońcem",
+          "text": "<p>Indywidualny system zaopatrywania budynku w energię elektryczną pozwala zminimalizować wydatki na prąd. Główną barierą, która pojawia się w rozważaniach o sensowności takiej inwestycji, jest obawa przed niedostateczną ilością słonecznych dni w naszym kraju. Nie ma się jednak czego obawiać, ponieważ energia skumulowana w okresie letnim, jest magazynowana i udostępniana nam w dni kiedy słońca jest niewiele. Instalacja fotowoltaiczna to oszczędność oraz troska o lepsze życie dla nas i przyszłych pokoleń. Ponadto, posiadanie własnej mini elektrowni słonecznej daje poczucie niezależności od polityki cenowej operatorów. Jednym słowem, warto.</p>",
           "image_1": "technologia_2.jpg",
           "image_2": "technologia_3.jpg"
         }
