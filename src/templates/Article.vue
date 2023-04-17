@@ -38,7 +38,6 @@ export default {
 
   created() {
     this.getBlocks();
-    console.log(this.blocks);
   },
 
   data() {
@@ -58,7 +57,7 @@ export default {
 </script>
 
 <style lang="scss">
-.section-content {
+.section-content.blockContent {
   position: relative;
   width: 100%;
   max-width: 1920px;
