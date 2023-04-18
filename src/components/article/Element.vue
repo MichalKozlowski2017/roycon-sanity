@@ -1,5 +1,9 @@
 <template functional>
-  <div v-in-viewport class="element" :style="{ zIndex: props.style == 'h4' ? '10' : '2' }">
+  <div
+    v-in-viewport
+    class="element"
+    :style="{ zIndex: props.style == 'h1' || props.style == 'h2' ? '10' : '2' }"
+  >
     <p v-if="props.style == 'normal'"><slot /></p>
     <h1 v-else-if="props.style == 'h1'"><slot /></h1>
     <h2 v-else-if="props.style == 'h2'"><slot /></h2>

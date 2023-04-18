@@ -119,8 +119,7 @@ export default {
   }
 
   p,
-  h1,
-  h2,
+  h4,
   ul,
   ol {
     font-family: "Adobe Caslon Pro";
@@ -179,8 +178,7 @@ export default {
     }
   }
 
-  h2,
-  h1 {
+  h4 {
     padding-top: 26px;
     padding-bottom: 20px;
     font-size: 46px;
@@ -219,20 +217,26 @@ export default {
     }
   }
 
-  h4 {
+  h1,
+  h2 {
     color: #732d67;
     font-family: "Brandon Grotesque", Arial, sans-serif;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 26px;
     position: relative;
     text-transform: uppercase;
     padding-top: 40px;
+    padding-bottom: 40px;
     display: block;
     overflow: visible;
-    line-height: 1.2;
+    line-height: 1.4;
+
+    @include mq($min-width: 1024px) {
+      font-size: 36px;
+    }
 
     @include mq($min-width: 1600px) {
-      font-size: 26px;
+      font-size: 48px;
     }
 
     &:after {
@@ -242,7 +246,7 @@ export default {
       display: block;
       width: 61px;
       height: 5px;
-      bottom: -9px;
+      bottom: 30px;
       left: 0;
       z-index: 10;
     }
