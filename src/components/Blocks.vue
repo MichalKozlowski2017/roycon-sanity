@@ -108,18 +108,14 @@ export default {
   ul,
   ol,
   h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h2 {
     position: relative;
     padding: 0;
     margin: 0;
   }
 
   p,
-  h4,
+  .big-heading,
   ul,
   ol {
     font-family: "Adobe Caslon Pro";
@@ -178,7 +174,7 @@ export default {
     }
   }
 
-  h4 {
+  .big-heading {
     padding-top: 26px;
     padding-bottom: 20px;
     font-size: 46px;
@@ -195,7 +191,7 @@ export default {
     }
   }
 
-  h3 {
+  .subtitle-heading {
     font-weight: normal;
     font-size: 26px;
     line-height: 1.2;
@@ -217,26 +213,20 @@ export default {
     }
   }
 
-  h1,
-  h2 {
+  .purple-heading {
     color: #732d67;
     font-family: "Brandon Grotesque", Arial, sans-serif;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 15px;
     position: relative;
     text-transform: uppercase;
     padding-top: 40px;
-    padding-bottom: 40px;
     display: block;
     overflow: visible;
-    line-height: 1.4;
-
-    @include mq($min-width: 1024px) {
-      font-size: 36px;
-    }
+    line-height: 1.2;
 
     @include mq($min-width: 1600px) {
-      font-size: 48px;
+      font-size: 26px;
     }
 
     &:after {
@@ -246,7 +236,7 @@ export default {
       display: block;
       width: 61px;
       height: 5px;
-      bottom: 30px;
+      bottom: -9px;
       left: 0;
       z-index: 10;
     }

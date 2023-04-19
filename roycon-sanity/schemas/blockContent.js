@@ -22,13 +22,12 @@ export default {
       // use your content.
       styles: [
         {title: 'Normal', value: 'normal'},
-        {title: 'H1', value: 'h1'},
-        {title: 'H2', value: 'h2'},
+        {title: 'H1 purple', value: 'h1_purple'},
+        {title: 'H2 purple', value: 'h2_purple'},
+        {title: 'H1 big', value: 'h1_big'},
+        {title: 'H2 big', value: 'h2_big'},
         {title: 'H3', value: 'h3'},
         {title: 'H4', value: 'h4'},
-        {title: 'H5', value: 'h5'},
-        {title: 'H6', value: 'h6'},
-        {title: 'Quote', value: 'blockquote'}
       ],
       lists: [{title: 'Bullet', value: 'bullet'}],
       // Marks let you mark up inline text in the block editor.
