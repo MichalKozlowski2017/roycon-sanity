@@ -88,13 +88,17 @@ export default {
   }
 
   @include mq($min-width: 768px) {
-    .image + div p {
+    .image + div p,
+    .image + div h1,
+    .image + div h2 {
       padding-top: 60px;
     }
   }
 
   @include mq($min-width: 768px) {
-    .image + div p {
+    .image + div p,
+    .image + div h1,
+    .image + div h2 {
       padding-top: 120px;
     }
   }
