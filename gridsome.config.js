@@ -19,6 +19,7 @@ function addStyleResource (rule) {
 
 module.exports = {
   siteName: 'Roycon',
+  siteUrl: 'https://www.roycon.pl',
   plugins: [
     {
       use: '@gridsome/plugin-google-analytics',
@@ -43,7 +44,43 @@ module.exports = {
         // use `graphqlTag` to specify the tag name. Defaults to `default`.
         graphqlTag: 'default'
       }
-    }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        exclude: ['/exclude-me'],
+        config: {
+          
+        }
+      }
+    },
+    {
+      use: "gridsome-plugin-htaccess",
+      options: {
+        redirections: [
+          {
+            from: "http://auto.roycon.pl/",
+            to: "https://roycon.pl/",
+          },
+          {
+            from: "http://www.roycon.pl/aktualna-oferta/",
+            to: "https://roycon.pl/",
+          },
+          {
+            from: "https://www.roycon.pl/pl/oferta/",
+            to: "https://roycon.pl/",
+          },
+          {
+            from: "http://www.roycon.pl/realizacje-2/",
+            to: "https://roycon.pl/",
+          },
+          {
+            from: "http://www.roycon.pl/ofirmie/",
+            to: "https://roycon.pl/",
+          },
+        ],
+      },
+    },
   ],
   chainWebpack (config) {
     // Load variables for all vue-files

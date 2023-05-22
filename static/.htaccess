@@ -1,0 +1,7 @@
+# Permanents redirections (301)
+Redirect 301 http://auto.roycon.pl/ https://roycon.pl/
+Redirect 301 http://www.roycon.pl/aktualna-oferta/ https://roycon.pl/
+Redirect 301 https://www.roycon.pl/pl/oferta/ https://roycon.pl/
+Redirect 301 http://www.roycon.pl/realizacje-2/ https://roycon.pl/
+Redirect 301 http://www.roycon.pl/ofirmie/ https://roycon.pl/
+
