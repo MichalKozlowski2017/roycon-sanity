@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    { "source": "/aktualna-oferta/", "destination": "https://roycon.pl" },
+    { "source": "/realizacje-2/", "destination": "https://roycon.pl" },
+    { "source": "/pl/oferta/", "destination": "https://roycon.pl" },
+    { "source": "/ofirmie/", "destination": "https://roycon.pl" }
+  ]
+}
