@@ -63,19 +63,19 @@ module.exports = {
             to: "https://roycon.pl/",
           },
           {
-            from: "http://www.roycon.pl/aktualna-oferta/",
+            from: "/aktualna-oferta/",
             to: "https://roycon.pl/",
           },
           {
-            from: "https://www.roycon.pl/pl/oferta/",
+            from: "/pl/oferta/",
             to: "https://roycon.pl/",
           },
           {
-            from: "http://www.roycon.pl/realizacje-2/",
+            from: "/realizacje-2/",
             to: "https://roycon.pl/",
           },
           {
-            from: "http://www.roycon.pl/ofirmie/",
+            from: "/ofirmie/",
             to: "https://roycon.pl/",
           },
         ],
