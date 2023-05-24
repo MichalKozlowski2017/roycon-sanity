@@ -16,6 +16,7 @@ import Section1 from "../components/index/Section1";
 import Realizacje from "../components/Realizacje";
 import Partnerzy from "../components/Partnerzy";
 import Kontakt from "../components/Kontakt";
+
 export default {
   components: {
     Slider,
@@ -41,6 +42,12 @@ export default {
         name: "keywords",
         content:
           "firma budowlana jelenia góra, firma budowlana Wałbrzych, firma budowlana legnica, generalny wykonawca jelenia góra, generalny wykonawca Wałbrzych, generalny wykonawca Legnica, wykonawca izodom 2000, hale stalowe jelenia góra, hale stalowe Wałbrzych, hale stalowe legnica, hale stalowe astron, domy zeroenergetyczne, budynek zeroenergetyczny",
+      },
+    ],
+    link: [
+      {
+        rel: "canonical",
+        content: "https://roycon.pl/",
       },
     ],
   },

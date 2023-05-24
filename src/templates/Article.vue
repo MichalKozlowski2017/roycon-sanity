@@ -12,6 +12,9 @@
   query ($id: ID!) {
     sanityArticle(id: $id) {
       title
+      slug {
+        current
+      }
       excerpt
       keywords
       _rawBlockContent
@@ -29,6 +32,12 @@ export default {
       title: this.$page.sanityArticle.title,
       meta: [{ name: "description", content: this.$page.sanityArticle.excerpt }],
       meta: [{ name: "keywords", content: this.$page.sanityArticle.keywords }],
+      link: [
+        {
+          rel: "canonical",
+          content: "https://roycon.pl/" + this.$page.sanityArticle.slug.current,
+        },
+      ],
     };
   },
   components: {

@@ -14,6 +14,7 @@ export default function (Vue, { router, head, isClient }) {
   Vue.directive('in-viewport', inViewportDirective)
   Vue.component('block-content', BlockContent);
 
+
   head.script.push({
     src: 'https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20171210/classList.min.js',
     body: true
