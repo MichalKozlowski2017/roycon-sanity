@@ -82,13 +82,13 @@ module.exports = {
       },
     },
     {
-      use: 'gridsome-plugin-gtm',
+      use: 'gridsome-plugin-gtag',
       options: {
-        id: 'GTM-TQFQVQ9',
-        enabled: true,
-        debug: true
-      }
-    }
+          config: {
+              id: 'GTM-TQFQVQ9',
+          },
+      },
+  },
   ],
   chainWebpack (config) {
     // Load variables for all vue-files
