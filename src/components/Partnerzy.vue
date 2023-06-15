@@ -58,7 +58,7 @@ export default {
     opacity: 1;
   }
   &__category {
-    margin-left: 37.5%;
+    margin-left: 12.5%;
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
@@ -122,7 +122,7 @@ export default {
   }
   @include mq($max-width: 1650px) {
     &__category {
-      margin-left: 31.5%;
+      margin-left: 12.5%;
     }
   }
   @include mq($max-width: 992px) {
