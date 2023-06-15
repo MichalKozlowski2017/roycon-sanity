@@ -3,7 +3,7 @@
     <Slider></Slider>
     <!-- <Slider2></Slider2> -->
     <Section1></Section1>
-    <Realizacje></Realizacje>
+    <RealizacjeHome></RealizacjeHome>
     <Partnerzy></Partnerzy>
     <Kontakt></Kontakt>
   </Layout>
@@ -13,7 +13,7 @@
 import Slider from "../components/index/Slider";
 import Slider2 from "../components/index/Slider2";
 import Section1 from "../components/index/Section1";
-import Realizacje from "../components/Realizacje";
+import RealizacjeHome from "../components/RealizacjeHome";
 import Partnerzy from "../components/Partnerzy";
 import Kontakt from "../components/Kontakt";
 
@@ -22,7 +22,7 @@ export default {
     Slider,
     Slider2,
     Section1,
-    Realizacje,
+    RealizacjeHome,
     Partnerzy,
     Kontakt,
   },

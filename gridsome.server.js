@@ -39,12 +39,32 @@ module.exports = function (api) {
           }
         }
       }
+      allSanityRealizacje {
+        edges {
+          node {
+            id
+            slug {
+              current
+            }
+          }
+        }
+      }
     }`)
 
     data.allSanityArticle.edges.forEach(({ node }) => {
       createPage({
         path: `/${node.slug.current}`,
         component: './src/templates/Article.vue',
+        context: {
+          id: node.id,
+        }
+      })
+    })
+
+    data.allSanityRealizacje.edges.forEach(({ node }) => {
+      createPage({
+        path: `/${node.slug.current}`,
+        component: './src/templates/Realizacje.vue',
         context: {
           id: node.id,
         }
