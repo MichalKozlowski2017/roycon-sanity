@@ -1,11 +1,11 @@
 <template>
   <Layout>
-    <Realizacje></Realizacje>
+    <Realizacje2></Realizacje2>
   </Layout>
 </template>
 
 <script>
-import Realizacje from "../components/Realizacje";
+import Realizacje2 from "../components/Realizacje2";
 export default {
   metaInfo: {
     title: "Realizacje",
@@ -30,7 +30,7 @@ export default {
     ],
   },
   components: {
-    Realizacje,
+    Realizacje2,
   },
 };
 </script>
