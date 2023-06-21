@@ -21,12 +21,12 @@ module.exports = {
   siteName: 'Roycon',
   siteUrl: 'https://www.roycon.pl',
   plugins: [
-    {
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: 'UA-37063241-1'
-      }
-    },
+    // {
+    //   use: '@gridsome/plugin-google-analytics',
+    //   options: {
+    //     id: 'UA-37063241-1'
+    //   }
+    // },
     {
       use: 'gridsome-source-sanity',
       options: {

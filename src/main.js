@@ -25,6 +25,20 @@ export default function (Vue, { router, head, isClient }) {
     body: true
   })
 
+  head.script.push({
+    src: 'https://www.googletagmanager.com/gtag/js?id=UA-37063241-1',
+    async: true
+  });
+
+  head.script.push({
+    innerHTML: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-37063241-1');
+    `
+  });
+
 
   
 
