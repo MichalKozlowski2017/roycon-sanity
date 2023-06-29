@@ -14,13 +14,14 @@ import Oferta4 from "../components/oferta/Oferta4";
 import Kontakt from "../components/Kontakt";
 export default {
   metaInfo: {
-    title: "Technologia",
+    title: "Technologie budowlane Roycon - dowiedz się więcej!",
+    titleTemplate: "",
     meta: [
       { name: "author", content: "Jerzy Nowak" },
       {
         name: "description",
         content:
-          "Jesteśmy przedsiębiorstwem budowlanym oferującym budowę obiektów deweloperskich i przemysłowych. Stosujemy rozwiązania energooszczędne sprawiając, że Państwa budynek ogranicza zużycie energii na ogrzewanie o blisko 80%. Działamy na terenie Jelenia Góra oraz Dolny Śląsk.",
+          "Poznaj najnowocześniejsze technologie budowlane stosowane przez Roycon. Inwestujemy w innowacje, aby sprostać wymaganiom klientów. Dowiedz się więcej!",
       },
       {
         name: "keywords",

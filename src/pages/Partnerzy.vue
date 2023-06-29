@@ -10,13 +10,14 @@ import Partnerzy from "../components/Partnerzy";
 import Slider from "../components/partnerzy/Slider";
 export default {
   metaInfo: {
-    title: "Partnerzy",
+    title: "Partnerzy firmy budowlanej Roycon - sprawdź!",
+    titleTemplate: "",
     meta: [
       { name: "author", content: "Jerzy Nowak" },
       {
         name: "description",
         content:
-          "Jesteśmy przedsiębiorstwem budowlanym oferującym budowę obiektów deweloperskich i przemysłowych. Stosujemy rozwiązania energooszczędne sprawiając, że Państwa budynek ogranicza zużycie energii na ogrzewanie o blisko 80%. Działamy na terenie Jelenia Góra oraz Dolny Śląsk.",
+          "Poznaj naszych zaufanych partnerów, z którymi współpracuje firma budowlana Roycon. Dołącz do grona naszych zadowolonych klientów. Sprawdź więcej na stronie!",
       },
       {
         name: "keywords",

@@ -30,13 +30,14 @@ export default {
     return {};
   },
   metaInfo: {
-    title: "Strona główna",
+    title: "Generalny wykonawca Roycon - strona główna",
+    titleTemplate: "",
     meta: [
       { name: "author", content: "Jerzy Nowak" },
       {
         name: "description",
         content:
-          "Jesteśmy przedsiębiorstwem budowlanym oferującym budowę obiektów deweloperskich i przemysłowych. Stosujemy rozwiązania energooszczędne sprawiając, że Państwa budynek ogranicza zużycie energii na ogrzewanie o blisko 80%. Działamy na terenie Jelenia Góra oraz Dolny Śląsk.",
+          "Zapraszamy na stronę główną Roycon - Twojego zaufanego partnera w budowie. Zobacz naszą ofertę i realizacje. Kliknij i dowiedz się więcej!",
       },
       {
         name: "keywords",

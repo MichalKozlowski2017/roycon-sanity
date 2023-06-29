@@ -8,13 +8,14 @@
 import Realizacje2 from "../components/Realizacje2";
 export default {
   metaInfo: {
-    title: "Realizacje",
+    title: "Nasze realizacje - dotychczasowe działania Roycon",
+    titleTemplate: "",
     meta: [
       { name: "author", content: "Jerzy Nowak" },
       {
         name: "description",
         content:
-          "Jesteśmy przedsiębiorstwem budowlanym oferującym budowę obiektów deweloperskich i przemysłowych. Stosujemy rozwiązania energooszczędne sprawiając, że Państwa budynek ogranicza zużycie energii na ogrzewanie o blisko 80%. Działamy na terenie Jelenia Góra oraz Dolny Śląsk.",
+          "Sprawdź nasze najnowsze realizacje budowlane. Roycon gwarantuje solidność wykonania i zadowolenie klienta. Zajrzyj na naszą stronę, aby zobaczyć więcej!",
       },
       {
         name: "keywords",

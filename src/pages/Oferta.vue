@@ -20,13 +20,15 @@ import Oferta5 from "../components/oferta/Oferta5";
 import Kontakt from "../components/Kontakt";
 export default {
   metaInfo: {
-    title: "Oferta",
+    title: "Firma budowlana Roycon - oferta dla inwestorów",
+    titleTemplate: "",
+    name: "description",
     meta: [
       { name: "author", content: "Jerzy Nowak" },
       {
         name: "description",
         content:
-          "Jesteśmy przedsiębiorstwem budowlanym oferującym budowę obiektów deweloperskich i przemysłowych. Stosujemy rozwiązania energooszczędne sprawiając, że Państwa budynek ogranicza zużycie energii na ogrzewanie o blisko 80%. Działamy na terenie Jelenia Góra oraz Dolny Śląsk.",
+          "Sprawdź szeroką ofertę firmy budowlanej Roycon - od projektowania po realizację. Gwarantujemy jakość i terminowość. Kliknij i dowiedz się więcej!",
       },
       {
         name: "keywords",

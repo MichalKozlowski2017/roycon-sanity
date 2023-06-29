@@ -13,13 +13,14 @@ import Ofirmie1 from "../components/o_firmie/Ofirmie1";
 import Ofirmie2 from "../components/o_firmie/Ofirmie2";
 export default {
   metaInfo: {
-    title: "O firmie",
+    title: "O Więcej informacji o nas - poznaj firmę Roycon!",
+    titleTemplate: "",
     meta: [
       { name: "author", content: "Jerzy Nowak" },
       {
         name: "description",
         content:
-          "Jesteśmy przedsiębiorstwem budowlanym oferującym budowę obiektów deweloperskich i przemysłowych. Stosujemy rozwiązania energooszczędne sprawiając, że Państwa budynek ogranicza zużycie energii na ogrzewanie o blisko 80%. Działamy na terenie Jelenia Góra oraz Dolny Śląsk.",
+          "Poznaj naszą firmę - Roycon to doświadczenie, profesjonalizm i najwyższe standardy w branży budowlanej. Wejdź na stronę i dowiedz się więcej o nas!",
       },
       {
         name: "keywords",

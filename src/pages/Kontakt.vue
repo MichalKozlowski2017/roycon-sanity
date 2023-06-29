@@ -8,13 +8,14 @@
 import Kontakt from "../components/Kontakt";
 export default {
   metaInfo: {
-    title: "Kontakt",
+    title: "Skontaktuj się z nami - firma budowlana Roycon!",
+    titleTemplate: "",
     meta: [
       { name: "author", content: "Jerzy Nowak" },
       {
         name: "description",
         content:
-          "Jesteśmy przedsiębiorstwem budowlanym oferującym budowę obiektów deweloperskich i przemysłowych. Stosujemy rozwiązania energooszczędne sprawiając, że Państwa budynek ogranicza zużycie energii na ogrzewanie o blisko 80%. Działamy na terenie Jelenia Góra oraz Dolny Śląsk.",
+          "Skontaktuj się z nami, aby dowiedzieć się więcej o naszych usługach budowlanych. Roycon - twoje zaufanie, nasze zobowiązanie. Wejdź na stronę!",
       },
       {
         name: "keywords",
