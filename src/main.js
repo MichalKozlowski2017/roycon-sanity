@@ -26,7 +26,7 @@ export default function (Vue, { router, head, isClient }) {
   })
 
   head.script.push({
-    src: 'https://www.googletagmanager.com/gtag/js?id=G-4HMC7PRT75',
+    src: 'https://www.googletagmanager.com/gtag/js?id=G-WGVB8CPG39',
     async: true
   });
 
@@ -35,7 +35,7 @@ export default function (Vue, { router, head, isClient }) {
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-4HMC7PRT75');
+      gtag('config', 'G-WGVB8CPG39');
     `
   });
 
