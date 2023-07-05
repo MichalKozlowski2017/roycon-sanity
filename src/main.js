@@ -8,7 +8,7 @@ import inViewportDirective from 'vue-in-viewport-directive'
 import BlockContent from 'sanity-blocks-vue-component'
 
 
-export default function (Vue, { router, head, isClient }) {
+export default function (Vue, { router, head, isClient, page }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.directive('in-viewport', inViewportDirective)
@@ -29,13 +29,13 @@ export default function (Vue, { router, head, isClient }) {
     src: 'https://www.googletagmanager.com/gtag/js?id=G-WGVB8CPG39',
     async: true
   });
-
   head.script.push({
     innerHTML: `
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-WGVB8CPG39');
+      gtag('config', 'AW-11238080681');
     `
   });
 

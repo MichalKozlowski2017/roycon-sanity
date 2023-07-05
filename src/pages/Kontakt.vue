@@ -10,6 +10,12 @@ export default {
   metaInfo: {
     title: "Skontaktuj się z nami - firma budowlana Roycon!",
     titleTemplate: "",
+    script: [
+      {
+        innerHTML:
+          "gtag('event', 'conversion', {'send_to': 'AW-11238080681/0opNCOaZ-LYYEKmB3u4p'}); ",
+      },
+    ],
     meta: [
       { name: "author", content: "Jerzy Nowak" },
       {
