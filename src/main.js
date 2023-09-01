@@ -6,6 +6,9 @@ import '~/assets/style.scss'
 import DefaultLayout from '~/layouts/Default.vue'
 import inViewportDirective from 'vue-in-viewport-directive'
 import BlockContent from 'sanity-blocks-vue-component'
+import VueCarousel from 'vue-carousel/src/index';
+
+
 
 
 export default function (Vue, { router, head, isClient, page }) {
@@ -13,6 +16,11 @@ export default function (Vue, { router, head, isClient, page }) {
   Vue.component('Layout', DefaultLayout)
   Vue.directive('in-viewport', inViewportDirective)
   Vue.component('block-content', BlockContent);
+  if(isClient) {
+  Vue.use(VueCarousel);
+
+  }
+
 
 
   head.script.push({

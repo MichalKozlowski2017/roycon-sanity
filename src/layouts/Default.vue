@@ -25,6 +25,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import MenuMobile from "../components/MenuMobile";
 import BackToTop from "vue-backtotop";
+
 // import Slide from 'vue-burger-menu'
 
 export default {
@@ -33,6 +34,7 @@ export default {
     Footer,
     BackToTop,
     MenuMobile,
+
     Slide: () =>
       import("vue-burger-menu")
         .then((m) => m.Slide)

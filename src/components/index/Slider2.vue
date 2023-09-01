@@ -66,11 +66,11 @@ export default {
     TitleHeader,
     Paragraph,
     Carousel: () =>
-      import("vue-carousel")
+      import("vue-carousel/src/index")
         .then((m) => m.Carousel)
         .catch(),
     Slide: () =>
-      import("vue-carousel")
+      import("vue-carousel/src/index")
         .then((m) => m.Slide)
         .catch(),
   },
