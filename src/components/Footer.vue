@@ -19,7 +19,9 @@
           <li><a href="https://www.roycon.pl/uslugi-projektowe-boleslawiec/">Bolesławiec</a></li>
           <li><a href="https://www.roycon.pl/uslugi-projektowe-zgorzelec/">Zgorzelec</a></li>
           <li><a href="https://www.roycon.pl/uslugi-projektowe-wroclaw/">Wrocław</a></li>
-          <li><a href="https://www.roycon.pl/uslugi-projektowe-kamienna-gora/">Kamień Góra</a></li>
+          <li>
+            <a href="https://www.roycon.pl/uslugi-projektowe-kamienna-gora/">Kamienna Góra</a>
+          </li>
         </ul>
       </div>
       <div class="links__group">
@@ -31,7 +33,7 @@
           <li><a href="https://www.roycon.pl/firma-budowlana-boleslawiec/">Bolesławiec</a></li>
           <li><a href="https://www.roycon.pl/firma-budowlana-zgorzelec/">Zgorzelec</a></li>
           <li><a href="https://www.roycon.pl/firma-budowlana-wroclaw/">Wrocław</a></li>
-          <li><a href="https://www.roycon.pl/firma-budowlana-kamienna-gora/">Kamień Góra</a></li>
+          <li><a href="https://www.roycon.pl/firma-budowlana-kamienna-gora/">Kamienna Góra</a></li>
         </ul>
       </div>
       <div class="links__group">
@@ -42,7 +44,7 @@
           <li><a href="https://www.roycon.pl/hale-przemyslowe-zlotoryja/">Złotoryja</a></li>
           <li><a href="https://www.roycon.pl/hale-przemyslowe-boleslawiec/">Bolesławiec</a></li>
           <li><a href="https://www.roycon.pl/hale-przemyslowe-wroclaw/">Wrocław</a></li>
-          <li><a href="https://www.roycon.pl/hale-przemyslowe-kamienna-gora/">Kamień Góra</a></li>
+          <li><a href="https://www.roycon.pl/hale-przemyslowe-kamienna-gora/">Kamienna Góra</a></li>
         </ul>
       </div>
       <div class="links__group">
@@ -53,7 +55,7 @@
           <li><a href="https://www.roycon.pl/hale-stalowe-zlotoryja/">Złotoryja</a></li>
           <li><a href="https://www.roycon.pl/hale-stalowe-boleslawiec/">Bolesławiec</a></li>
           <li><a href="https://www.roycon.pl/hale-stalowe-wroclaw/">Wrocław</a></li>
-          <li><a href="https://www.roycon.pl/hale-stalowe-kamienna-gora/">Kamień Góra</a></li>
+          <li><a href="https://www.roycon.pl/hale-stalowe-kamienna-gora/">Kamienna Góra</a></li>
         </ul>
       </div>
       <div class="links__group">
@@ -64,7 +66,7 @@
           <li><a href="https://www.roycon.pl/hale-systemowe-zlotoryja/">Złotoryja</a></li>
           <li><a href="https://www.roycon.pl/hale-systemowe-boleslawiec/">Bolesławiec</a></li>
           <li><a href="https://www.roycon.pl/hale-systemowe-wroclaw/">Wrocław</a></li>
-          <li><a href="https://www.roycon.pl/hale-systemowe-kamienna-gora/">Kamień Góra</a></li>
+          <li><a href="https://www.roycon.pl/hale-systemowe-kamienna-gora/">Kamienna Góra</a></li>
         </ul>
       </div>
       <div class="links__group">
@@ -76,7 +78,7 @@
           <li><a href="https://www.roycon.pl/roboty-ziemne-boleslawiec/">Bolesławiec</a></li>
           <li><a href="https://www.roycon.pl/roboty-ziemne-zgorzelec/">Zgorzelec</a></li>
           <li><a href="https://www.roycon.pl/roboty-ziemne-wroclaw/">Wrocław</a></li>
-          <li><a href="https://www.roycon.pl/roboty-ziemne-kamienna-gora/">Kamień Góra</a></li>
+          <li><a href="https://www.roycon.pl/roboty-ziemne-kamienna-gora/">Kamienna Góra</a></li>
         </ul>
       </div>
     </div>
