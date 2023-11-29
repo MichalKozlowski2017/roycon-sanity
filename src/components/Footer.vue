@@ -11,7 +11,7 @@
 
     <div class="links">
       <div class="links__group">
-        <h1>Usługi Projektowe</h1>
+        <h4>Usługi Projektowe</h4>
         <ul>
           <li><a href="https://www.roycon.pl/uslugi-projektowe-legnica/">Legnica</a></li>
           <li><a href="https://www.roycon.pl/uslugi-projektowe-walbrzych/">Wałbrzych</a></li>
@@ -25,7 +25,7 @@
         </ul>
       </div>
       <div class="links__group">
-        <h1>Firma Budowlana</h1>
+        <h4>Firma Budowlana</h4>
         <ul>
           <li><a href="https://www.roycon.pl/firma-budowlana-legnica/">Legnica</a></li>
           <li><a href="https://www.roycon.pl/firma-budowlana-walbrzych/">Wałbrzych</a></li>
@@ -37,7 +37,7 @@
         </ul>
       </div>
       <div class="links__group">
-        <h1>Hale Przemysłowe</h1>
+        <h4>Hale Przemysłowe</h4>
         <ul>
           <li><a href="https://www.roycon.pl/hale-przemyslowe-legnica/">Legnica</a></li>
           <li><a href="https://www.roycon.pl/hale-przemyslowe-walbrzych/">Wałbrzych</a></li>
@@ -48,7 +48,7 @@
         </ul>
       </div>
       <div class="links__group">
-        <h1>Hale Stalowe</h1>
+        <h4>Hale Stalowe</h4>
         <ul>
           <li><a href="https://www.roycon.pl/hale-stalowe-legnica/">Legnica</a></li>
           <li><a href="https://www.roycon.pl/hale-stalowe-walbrzych/">Wałbrzych</a></li>
@@ -59,7 +59,7 @@
         </ul>
       </div>
       <div class="links__group">
-        <h1>Hale Systemowe</h1>
+        <h4>Hale Systemowe</h4>
         <ul>
           <li><a href="https://www.roycon.pl/hale-systemowe-legnica/">Legnica</a></li>
           <li><a href="https://www.roycon.pl/hale-systemowe-walbrzych/">Wałbrzych</a></li>
@@ -70,7 +70,7 @@
         </ul>
       </div>
       <div class="links__group">
-        <h1>Roboty Ziemne</h1>
+        <h4>Roboty Ziemne</h4>
         <ul>
           <li><a href="https://www.roycon.pl/roboty-ziemne-legnica/">Legnica</a></li>
           <li><a href="https://www.roycon.pl/roboty-ziemne-walbrzych/">Wałbrzych</a></li>
@@ -173,7 +173,7 @@ footer {
       min-width: 150px;
       width: 16.6%;
       text-align: center;
-      h1 {
+      h4 {
         font-size: 14px;
         color: $accent-purple;
       }

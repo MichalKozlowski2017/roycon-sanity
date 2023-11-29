@@ -7,6 +7,7 @@ import DefaultLayout from '~/layouts/Default.vue'
 import inViewportDirective from 'vue-in-viewport-directive'
 import BlockContent from 'sanity-blocks-vue-component'
 import VueCarousel from 'vue-carousel/src/index';
+import VueDisclosure from 'vue-disclosure'
 
 
 
@@ -17,7 +18,8 @@ export default function (Vue, { router, head, isClient, page }) {
   Vue.directive('in-viewport', inViewportDirective)
   Vue.component('block-content', BlockContent);
   if(isClient) {
-  Vue.use(VueCarousel);
+    Vue.use(VueCarousel);
+    Vue.use(VueDisclosure)
 
   }
 

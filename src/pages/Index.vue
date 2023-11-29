@@ -6,6 +6,7 @@
     <RealizacjeHome></RealizacjeHome>
     <Partnerzy></Partnerzy>
     <Kontakt></Kontakt>
+    <IndexSeoContent></IndexSeoContent>
   </Layout>
 </template>
 
@@ -16,6 +17,7 @@ import Section1 from "../components/index/Section1";
 import RealizacjeHome from "../components/RealizacjeHome";
 import Partnerzy from "../components/Partnerzy";
 import Kontakt from "../components/Kontakt";
+import IndexSeoContent from "../components/IndexSeoContent";
 
 export default {
   components: {
@@ -25,6 +27,7 @@ export default {
     RealizacjeHome,
     Partnerzy,
     Kontakt,
+    IndexSeoContent,
   },
   data() {
     return {};
