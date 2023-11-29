@@ -17,11 +17,10 @@ export default function (Vue, { router, head, isClient, page }) {
   Vue.component('Layout', DefaultLayout)
   Vue.directive('in-viewport', inViewportDirective)
   Vue.component('block-content', BlockContent);
-  Vue.use(VueDisclosure)
 
   if(isClient) {
     Vue.use(VueCarousel);
-
+    Vue.use(VueDisclosure)
   }
 
 
