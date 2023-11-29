@@ -1,100 +1,103 @@
 <template>
   <section class="section index-seo-content">
     <div class="accordion">
-      <TitleHeaderH1 class="big-heading" :text="'Firma budowlana Jelenia Góra'"></TitleHeaderH1>
-      <Paragraph
-        :text="
-          'Potrzebujesz kompleksowego wsparcia w zakresie usług projektowych? W takim razie Roycon jako firma budowlana w Jeleniej Górze będzie najlepszym możliwym wyborem. Działamy już od wielu lat w branży budowlanej, świadcząc usługi podwykonawstwa i nie tylko. Jesteśmy przedsiębiorstwem, które na pierwszym miejscu stawia klient. Jeśli cenisz sobie kompleksowość usług i pełen profesjonalizm, koniecznie'
-        "
-      >
-      </Paragraph>
-      <disclosure-toggler :options="options">
-        <h2 class="purple-heading">
-          Profesjonalna firma budowlana w Jeleniej Górze - dlaczego Roycon?
-        </h2>
-      </disclosure-toggler>
-      <disclosure-content class="accordion--content">
-        <div>
-          <Paragraph
-            class="accordion--paragraph"
-            :text="
-              'Jest wiele powodów, dla których warto zdecydować się na współpracę z ekspertami Roycon. Stawiamy na innowacyjne rozwiązania, które przekładają się na estetykę wykonywanych projektów oraz prac budowlanych. Dbamy o to, aby stawiane konstrukcje były energooszczędne, co przekłada się na korzyści ekonomiczne i ekologiczne. Kilka czynników, które determinują opłacalność nawiązania współpracy z naszym przedsiębiorstwem to:'
-            "
-          ></Paragraph>
+      <ClientOnly>
+        <TitleHeaderH1 class="big-heading" :text="'Firma budowlana Jelenia Góra'"></TitleHeaderH1>
+        <Paragraph
+          :text="
+            'Potrzebujesz kompleksowego wsparcia w zakresie usług projektowych? W takim razie Roycon jako firma budowlana w Jeleniej Górze będzie najlepszym możliwym wyborem. Działamy już od wielu lat w branży budowlanej, świadcząc usługi podwykonawstwa i nie tylko. Jesteśmy przedsiębiorstwem, które na pierwszym miejscu stawia klient. Jeśli cenisz sobie kompleksowość usług i pełen profesjonalizm, koniecznie'
+          "
+        >
+        </Paragraph>
+        <disclosure-toggler :options="options">
+          <h2 class="purple-heading">
+            Profesjonalna firma budowlana w Jeleniej Górze - dlaczego Roycon?
+          </h2>
+        </disclosure-toggler>
+        <disclosure-content class="accordion--content">
+          <div>
+            <Paragraph
+              class="accordion--paragraph"
+              :text="
+                'Jest wiele powodów, dla których warto zdecydować się na współpracę z ekspertami Roycon. Stawiamy na innowacyjne rozwiązania, które przekładają się na estetykę wykonywanych projektów oraz prac budowlanych. Dbamy o to, aby stawiane konstrukcje były energooszczędne, co przekłada się na korzyści ekonomiczne i ekologiczne. Kilka czynników, które determinują opłacalność nawiązania współpracy z naszym przedsiębiorstwem to:'
+              "
+            ></Paragraph>
 
-          <ul>
-            <li>
-              ponad 30-letnie doświadczenie w branży budowlanej i w zakresie wznoszenia konstrukcji
-              stalowych,
-            </li>
-            <li>
-              wiele pozytywnie zakończonych inwestycji, które wiążą się z pełnym zadowoleniem
-              inwestora,
-            </li>
-            <li>nieposzlakowana opinia na rynku budowlanym,</li>
-            <li>
-              współpraca z najlepszymi ekspertami w swojej dziedzinie, dzięki czemu zapewniamy
-              idealne projekty i finalne efekty dopasowane do potrzeb inwestora,
-            </li>
-            <li>profesjonalizm i szybkość działania - jako firma</li>
-          </ul>
-          <Paragraph
-            class="accordion--paragraph"
-            :text="
-              'Nasza firma budowlana w Jeleniej Górze skupia się przede wszystkim na projektowaniu, budowaniu oraz nadzorowaniu prac związanych ze wznoszeniem konstrukcji stalowych i nie tylko. Dbamy zawsze o to, aby zadowolić każdego klienta - głównie przez indywidualne podejście do każdego projektu oraz możliwość wykorzystania nietypowych technologii budowlanych, zależnie od potrzeb.'
-            "
-          >
-          </Paragraph>
-        </div>
-      </disclosure-content>
+            <ul>
+              <li>
+                ponad 30-letnie doświadczenie w branży budowlanej i w zakresie wznoszenia
+                konstrukcji stalowych,
+              </li>
+              <li>
+                wiele pozytywnie zakończonych inwestycji, które wiążą się z pełnym zadowoleniem
+                inwestora,
+              </li>
+              <li>nieposzlakowana opinia na rynku budowlanym,</li>
+              <li>
+                współpraca z najlepszymi ekspertami w swojej dziedzinie, dzięki czemu zapewniamy
+                idealne projekty i finalne efekty dopasowane do potrzeb inwestora,
+              </li>
+              <li>profesjonalizm i szybkość działania - jako firma</li>
+            </ul>
+            <Paragraph
+              class="accordion--paragraph"
+              :text="
+                'Nasza firma budowlana w Jeleniej Górze skupia się przede wszystkim na projektowaniu, budowaniu oraz nadzorowaniu prac związanych ze wznoszeniem konstrukcji stalowych i nie tylko. Dbamy zawsze o to, aby zadowolić każdego klienta - głównie przez indywidualne podejście do każdego projektu oraz możliwość wykorzystania nietypowych technologii budowlanych, zależnie od potrzeb.'
+              "
+            >
+            </Paragraph>
+          </div>
+        </disclosure-content>
 
-      <disclosure-toggler :options="options">
-        <h2 class="purple-heading">
-          Kompleksowość, profesjonalizm i innowacyjność - firma budowlana w Jeleniej Górze
-        </h2>
-      </disclosure-toggler>
-      <disclosure-content class="accordion--content">
-        <div>
-          <Paragraph
-            class="accordion--paragraph"
-            :text="
-              'Roycon to strzał w dziesiątkę, jeśli cenisz sobie dostęp do innowacyjnych technologi budowlanych, najlepszych specjalistów w branży oraz indywidualne podejście do każdego projektu. W firmie budowlanej w Jeleniej Górze - Roycon przede wszystkim próbujemy ustalić potrzeby inwestora, a dopiero później proponujemy konkretne rozwiązania.'
-            "
-          >
-          </Paragraph>
-          <Paragraph
-            class="accordion--paragraph"
-            :text="
-              'Działamy też jako generalny wykonawca wraz z usługami projektowymi. To oznacza, że firma budowlana w Jeleniej Górze jest zespołem wysoce wykwalifikowanych osób, które wiedzą, jak prowadzić projektu budowlane od początku do końca. Kontaktując się z nami, musisz ustalić z ekspertem swój budżet na realizację inwestycji oraz potrzeby przedsiębiorstwa, dla którego, np. wzniesiemy halę stalową. Zdecyduj się na współpracę z nami, jeśli potrzebujesz maksimum oddania specjalistów i ekspresowej realizacji usług związanych z inwestycją budowlaną.'
-            "
-          >
-          </Paragraph>
-        </div>
-      </disclosure-content>
+        <disclosure-toggler :options="options">
+          <h2 class="purple-heading">
+            Kompleksowość, profesjonalizm i innowacyjność - firma budowlana w Jeleniej Górze
+          </h2>
+        </disclosure-toggler>
+        <disclosure-content class="accordion--content">
+          <div>
+            <Paragraph
+              class="accordion--paragraph"
+              :text="
+                'Roycon to strzał w dziesiątkę, jeśli cenisz sobie dostęp do innowacyjnych technologi budowlanych, najlepszych specjalistów w branży oraz indywidualne podejście do każdego projektu. W firmie budowlanej w Jeleniej Górze - Roycon przede wszystkim próbujemy ustalić potrzeby inwestora, a dopiero później proponujemy konkretne rozwiązania.'
+              "
+            >
+            </Paragraph>
+            <Paragraph
+              class="accordion--paragraph"
+              :text="
+                'Działamy też jako generalny wykonawca wraz z usługami projektowymi. To oznacza, że firma budowlana w Jeleniej Górze jest zespołem wysoce wykwalifikowanych osób, które wiedzą, jak prowadzić projektu budowlane od początku do końca. Kontaktując się z nami, musisz ustalić z ekspertem swój budżet na realizację inwestycji oraz potrzeby przedsiębiorstwa, dla którego, np. wzniesiemy halę stalową. Zdecyduj się na współpracę z nami, jeśli potrzebujesz maksimum oddania specjalistów i ekspresowej realizacji usług związanych z inwestycją budowlaną.'
+              "
+            >
+            </Paragraph>
+          </div>
+        </disclosure-content>
 
-      <disclosure-toggler :options="options">
-        <h2 class="purple-heading">
-          Usługi firmy budowlanej - Jelenia Góra. Wspólnie zrealizujemy najnowocześniejsze projekty!
-        </h2>
-      </disclosure-toggler>
-      <disclosure-content class="accordion--content">
-        <div>
-          <Paragraph
-            class="accordion--paragraph"
-            :text="
-              'Mamy wysoce doświadczonych i wykwalifikowanych specjalistów, którzy wiedzą, jak zająć się nawet najbardziej skomplikowanymi projektami w zakresie budownictwa. Wiemy, jak projektować i wznosić obiekty budowlane tak, aby były: bezpieczne, przyjazne dla środowiska naturalnego oraz stosunkowo niedrogie w codziennej eksploatacji.'
-            "
-          >
-          </Paragraph>
-          <Paragraph
-            class="accordion--paragraph"
-            :text="
-              'Wystarczy, że skontaktujesz się z naszymi ekspertami w firmie budowlanej. Jelenia Góra to tylko jedna z wielu lokalizacji, gdzie działamy jako zespół wyjątkowo uzdolnionych ekspertów z zakresu budownictwa, projektowania i architektury.'
-            "
-          >
-          </Paragraph>
-        </div>
-      </disclosure-content>
+        <disclosure-toggler :options="options">
+          <h2 class="purple-heading">
+            Usługi firmy budowlanej - Jelenia Góra. Wspólnie zrealizujemy najnowocześniejsze
+            projekty!
+          </h2>
+        </disclosure-toggler>
+        <disclosure-content class="accordion--content">
+          <div>
+            <Paragraph
+              class="accordion--paragraph"
+              :text="
+                'Mamy wysoce doświadczonych i wykwalifikowanych specjalistów, którzy wiedzą, jak zająć się nawet najbardziej skomplikowanymi projektami w zakresie budownictwa. Wiemy, jak projektować i wznosić obiekty budowlane tak, aby były: bezpieczne, przyjazne dla środowiska naturalnego oraz stosunkowo niedrogie w codziennej eksploatacji.'
+              "
+            >
+            </Paragraph>
+            <Paragraph
+              class="accordion--paragraph"
+              :text="
+                'Wystarczy, że skontaktujesz się z naszymi ekspertami w firmie budowlanej. Jelenia Góra to tylko jedna z wielu lokalizacji, gdzie działamy jako zespół wyjątkowo uzdolnionych ekspertów z zakresu budownictwa, projektowania i architektury.'
+              "
+            >
+            </Paragraph>
+          </div>
+        </disclosure-content>
+      </ClientOnly>
     </div>
   </section>
 </template>
