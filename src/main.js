@@ -36,6 +36,13 @@ export default function (Vue, { router, head, isClient, page }) {
   })
 
   head.script.push({
+    src: 'https://consent.cookiebot.com/uc.js',
+    id: 'Cookiebot',
+    'data-cbid': 'fb35caca-3561-402f-9670-630d7cca5ec5',
+    'data-blockingmode': 'auto'
+  })
+
+  head.script.push({
     src: 'https://www.googletagmanager.com/gtag/js?id=G-WGVB8CPG39',
     async: true
   });
