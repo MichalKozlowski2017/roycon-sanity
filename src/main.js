@@ -13,6 +13,7 @@ import VueDisclosure from 'vue-disclosure'
 
 
 export default function (Vue, { router, head, isClient, page }) {
+  head.htmlAttrs = { lang: 'pl'}
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.directive('in-viewport', inViewportDirective)
