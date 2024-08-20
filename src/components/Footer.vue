@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="footer-bottom">
-      <div class="copyright">© 2019 Firma Budowlana ROYCON sp. z o.o.</div>
+      <div class="copyright">© 2024 Firma Budowlana ROYCON sp. z o.o.</div>
       <div class="author">
         <p>Projekt graficzny:</p>
         <g-image v-in-viewport src="~/assets/img/ap.png" />
