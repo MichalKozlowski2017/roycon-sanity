@@ -34,8 +34,9 @@ export default {
     const serializers = {
       types: {
         image: (data) => {
+          console.log(data.node);
           return h("img", {
-            attrs: { src: urlFor(data.node.asset).url() },
+            attrs: { src: urlFor(data.node.asset).url(), alt: data.node.alt },
             class: "image",
           });
         },
