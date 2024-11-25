@@ -34,7 +34,7 @@ export default {
     const serializers = {
       types: {
         image: (data) => {
-          console.log(data.node);
+          // console.log(data.node);
           return h("img", {
             attrs: { src: urlFor(data.node.asset).url(), alt: data.node.alt },
             class: "image",
@@ -91,7 +91,8 @@ export default {
   @include mq($min-width: 768px) {
     .image + div p,
     .image + div h1,
-    .image + div h2 {
+    .image + div h2,
+    .image + div h3 {
       padding-top: 60px;
     }
   }
@@ -99,7 +100,8 @@ export default {
   @include mq($min-width: 768px) {
     .image + div p,
     .image + div h1,
-    .image + div h2 {
+    .image + div h2,
+    .image + div h3 {
       padding-top: 120px;
     }
   }
@@ -113,7 +115,8 @@ export default {
   ul,
   ol,
   h1,
-  h2 {
+  h2,
+  h3 {
     position: relative;
     padding: 0;
     margin: 0;

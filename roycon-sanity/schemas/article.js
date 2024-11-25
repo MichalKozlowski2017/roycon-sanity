@@ -60,9 +60,12 @@ export default {
             {title: 'Normal', value: 'normal'},
             {title: 'H1 purple', value: 'h1_purple'},
             {title: 'H2 purple', value: 'h2_purple'},
+            {title: 'H3 purple', value: 'h3_purple'},
             {title: 'H1 big', value: 'h1_big'},
             {title: 'H2 big', value: 'h2_big'},
+            {title: 'H3 big', value: 'h3_big'},
             {title: 'H2 subtitle', value: 'h2_subtitle'},
+            {title: 'H3 subtitle', value: 'h3_subtitle'},
           ],
           lists: [{title: 'Bullet', value: 'bullet'}],
           // Marks let you mark up inline text in the block editor.

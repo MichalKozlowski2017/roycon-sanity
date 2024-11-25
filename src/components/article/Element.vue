@@ -7,9 +7,12 @@
     <p v-if="props.style == 'normal'"><slot /></p>
     <h1 class="purple-heading" v-else-if="props.style == 'h1_purple'"><slot /></h1>
     <h2 class="purple-heading" v-else-if="props.style == 'h2_purple'"><slot /></h2>
+    <h3 class="purple-heading" v-else-if="props.style == 'h3_purple'"><slot /></h3>
     <h1 class="big-heading" v-else-if="props.style == 'h1_big'"><slot /></h1>
     <h2 class="big-heading" v-else-if="props.style == 'h2_big'"><slot /></h2>
+    <h3 class="big-heading" v-else-if="props.style == 'h3_big'"><slot /></h3>
     <h2 class="subtitle-heading" v-else-if="props.style == 'h2_subtitle'"><slot /></h2>
+    <h3 class="subtitle-heading" v-else-if="props.style == 'h3_subtitle'"><slot /></h3>
     <ul v-else>
       <slot />
     </ul>
