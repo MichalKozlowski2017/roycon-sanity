@@ -31,10 +31,10 @@ export default function (Vue, { router, head, isClient, page }) {
     body: true
   })
 
-  head.script.push({
-    src: 'https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.forEach%2CNodeList.prototype.forEach',
-    body: true
-  })
+  // head.script.push({
+  //   src: 'https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.forEach%2CNodeList.prototype.forEach',
+  //   body: true
+  // })
 
   head.script.push({
     src: 'https://consent.cookiebot.com/uc.js',
