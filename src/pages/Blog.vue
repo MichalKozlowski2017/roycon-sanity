@@ -1,8 +1,28 @@
 <template>
   <Layout>
     <h1>BLOG - TEST</h1>
+    <div v-for="item in $static.articles.edges" :key="item.id">
+      <h3>{{ item.node.title }}</h3>
+      <g-link :to="item.node.slug.current">Read more</g-link>
+    </div>
   </Layout>
 </template>
+
+<static-query>
+query {
+  articles: allSanityArticle {
+    edges {
+      node {
+        title,
+        excerpt,
+        slug {
+          current
+        }
+      }
+    }
+  }
+}
+</static-query>
 
 <script>
 export default {
@@ -30,5 +50,10 @@ export default {
     ],
   },
   components: {},
+  data() {
+    return {
+      articles: [],
+    };
+  },
 };
 </script>
