@@ -1,7 +1,6 @@
 <template>
   <Layout>
     <div class="section Blog" id="blog" v-in-viewport>
-      <div class="line-1-Blog" v-in-viewport></div>
       <CategoryHeader
         v-in-viewport
         :text="'Artykuły'"
@@ -11,7 +10,7 @@
         <g-link
           :to="item.node.slug.current"
           class="blog__item"
-          v-for="item in $static.articles.edges"
+          v-for="item in $page.articles.edges"
           :key="item.id"
         >
           <div class="blog__item--img">
@@ -22,22 +21,35 @@
             />
           </div>
           <div class="blog__item--info">
+            <p class="blog-date">{{ formatDate(item.node._createdAt) }}</p>
             <h4>{{ item.node.title }}</h4>
             <p>{{ item.node.excerpt }}</p>
           </div>
         </g-link>
       </div>
+      <Pager
+        :info="$page.articles.pageInfo"
+        class="pager-container"
+        linkClass="pager-container__link"
+        nextLabel="Następna"
+        prevLabel="Poprzednia"
+      />
     </div>
   </Layout>
 </template>
 
-<static-query>
-query {
-  articles: allSanityArticle {
+<page-query>
+query ($page: Int){
+  articles: allSanityArticle(perPage: 12, page: $page) @paginate {
+    pageInfo {
+      totalPages
+      currentPage
+    }
     edges {
       node {
         title,
         excerpt,
+        _createdAt,
         slug {
           current
         },
@@ -46,11 +58,12 @@ query {
     }
   }
 }
-</static-query>
+</page-query>
 
 <script>
 import CategoryHeader from "~/components/CategoryHeader";
 import { urlFor } from "../lib/sanity";
+import { Pager } from "gridsome";
 export default {
   metaInfo: {
     title: "Blog",
@@ -77,6 +90,7 @@ export default {
   },
   components: {
     CategoryHeader,
+    Pager,
   },
   methods: {
     firstImage(blockContent) {
@@ -86,8 +100,11 @@ export default {
       return null;
     },
     generateUrl: (url) => {
-      console.log(urlFor(url).url());
       return urlFor(url).url();
+    },
+    formatDate(dateString) {
+      const options = { year: "numeric", month: "long", day: "numeric" };
+      return new Date(dateString).toLocaleDateString("pl-PL", options);
     },
   },
   data() {
@@ -260,6 +277,13 @@ export default {
       p {
         font-size: 15px;
       }
+      p.blog-date {
+        text-decoration: underline;
+        text-decoration-color: $accent-green;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 4px;
+        margin-bottom: 5px;
+      }
 
       @include mq($max-width: 768px) {
         h4 {
@@ -311,6 +335,24 @@ export default {
       .blog__item--img {
         transform: scale(1.1);
       }
+    }
+  }
+}
+.pager-container {
+  display: inline-block;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  color: black;
+
+  &__link {
+    text-align: center;
+    padding: 0.6rem 1.2rem;
+    color: gray;
+    text-decoration: none;
+    &.active {
+      color: #fff;
+      background-color: $accent-purple;
     }
   }
 }
