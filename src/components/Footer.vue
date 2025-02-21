@@ -3,8 +3,8 @@
     <div class="footer-bottom">
       <div class="copyright">© 2024 Firma Budowlana ROYCON sp. z o.o.</div>
       <div class="author">
-        <p>Projekt graficzny:</p>
-        <g-image v-in-viewport src="~/assets/img/ap.png" />
+        <p>tel: <a href="tel:+48505765502">+48 505 765 502</a></p>
+        <p>email: <a href="mailto:w.nowak@roycon.pl">w.nowak@roycon.pl</a></p>
       </div>
       <Socials />
     </div>
@@ -112,10 +112,22 @@ footer {
     display: -ms-flexbox;
     display: flex;
     font-size: 14px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-top: -20px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: -10px;
+    p {
+      margin: 0;
+    }
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    @include mq($max-width: 992px) {
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
     img {
       width: 28px;
       height: 28px;
