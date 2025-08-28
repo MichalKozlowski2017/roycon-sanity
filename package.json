@@ -17,6 +17,7 @@
     "intersection-observer": "^0.7.0",
     "sanity-blocks-vue-component": "^0.1.0",
     "sass-mediaqueries": "^1.6.1",
+    "sharp": "^0.34.3",
     "vue-backtotop": "^1.6.1",
     "vue-burger-menu": "^2.0.3",
     "vue-carousel": "^0.18.0",
